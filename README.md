@@ -1,95 +1,51 @@
-# Aurie - Swift model + generator + content
+What will your world hatch?
 
-Aurie in Swift: a photographed object becomes one unique, saveable
-creature. Base creature always works; object recognition adds additional detail; each
-creature is given one permanent line at hatch, and reacts to play with short lines.
+With Aurie, an everyday photo becomes an egg, and you never know who is waiting inside.
 
-## Files
+Take a photo of something around you, watch it transform into an egg, and tap to hatch your new Aurie. Each Aurie is created with its own combination of appearance, family, personality, and details, giving you a growing collection of little creatures to discover.
 
-| File | What it is |
-|------|------------|
-| `AurieModels.swift` | Enums, structs, `DetailSlots`, `RecognizedObject`, and the `Codable` `Aurie` record. |
-| `AurieContent.swift` | Codable shapes mirroring the JSON + a class with lookup maps and a loader. |
-| `AurieGenerator.swift` | Hatch pipeline, the permanent-line composer, and the play reaction helpers. |
-| `AurieNode.swift` | SpriteKit creature node: assembles parts, tints, and animates (bob, blink, hop, bounce). |
-| `aurie_content.json` | All the words + the category / hero tables. The delight lever - expand freely. |
-| `daily_content.json` | Home daily-lift content: `quotes` / `jokes` / `dares` (app-wide, not creature lines). |
-| `DailyLift.swift` | Loads `daily_content.json` and picks one item per calendar day (deterministic, no storage). |
+But hatching is only the beginning.
 
-## The three layers (a hatch)
+Bring an Aurie home and interact with it. Tap it, pet it, pick it up, move it around, or give your phone a shake and see how it reacts. Different Auries have different looks and personalities, and each family has its own environment and atmosphere.
 
-```
-photo -> (Vision + image step) -> dominant color, ShapeSignal, RecognizedObject?
-  Layer 1  ALWAYS: color -> family, shape -> body, eyes/mouth/limbs, color, aura,
-                   name, the permanent LINE (composed), and a personality trio
-  Layer 2  IF recognized (confidence >= 0.40, category != unknown): category fills
-                   detail slots (charms, pattern, texture)
-  Layer 3  IF a hero object matches the label: stamps that object's signature detail
-```
+HATCH & DISCOVER
 
-Unknown / low-confidence recognition runs Layer 1 only; the profile reads
-"born from a mysterious shape". A bad photo is never a failure, just a plainer creature.
+Turn photos into eggs and discover the Aurie inside. Auries come in different shapes, styles, expressions, patterns, and families, creating tons of possible combinations to find.
 
-### Color -> family (hue degrees)
+You might even discover something especially rare.
 
-Stone first (saturation < 0.18 or value < 0.12), then: Ember < 40 or >= 330 · Glow 40-70
-· Moss 70-165 · Tide 165-255 · Dusk 255-330. Starlight is a ~4% override. 
+BUILD YOUR COLLECTION
 
-## Lines
+Every Aurie you hatch joins your collection, so you can visit your favorites and keep discovering new ones.
 
-**1. The permanent line** - each creature's identity, unique, never changes.
-It is *composed at hatch* by `composeLine`: pick one of the family's `lineTemplates`,
-fill `{name}` with the creature's name and `{mood}` with a random family mood word.
-Stored on the creature (`Aurie.line`) and shown on Home and the full-screen view.
+Each Aurie belongs to its own family, with a unique environment and atmosphere to call home.
 
-**2. Reaction lines** - not stored on the creature:
-- `shakeLine(for:)` and `petLine(for:)` - family-flavored (per-family `shake` / `pet`).
-- `tickleLine(_:)` and `pickupLine(_:)` - shared pools (`sharedPlay`), any creature.
+COLLECT & EQUIP CHARMS
 
-Separately, each creature stores a **personality trio** - 3 adjectives drawn from its
-family's `traits` pool at hatch, kept on `Aurie.traits`
-and shown on the detail screen.
+Discover charms as you play, build your charm collection, and choose which ones your Auries wear.
 
+Mix and match charms with different Auries to give your collection even more personality. Charms can appear in different places on your Aurie, making each one feel a little more your own.
 
-## Rendering + tinting (SpriteKit)
+PLAY WITH YOUR AURIES
 
-Stack parts by `zPosition`: aura -> limbs -> body -> pattern -> charms -> eyes -> mouth.
-Tint body/limbs/pattern via `node.color` + `colorBlendFactor = 1` (pattern = a darker
-base). Eyes / mouth / charms keep `colorBlendFactor = 0`. Aura is a soft glow node tinted
-with `auraColor`, additive, plus a sparkle emitter for the hatch. For the glossy 3D look,
-draw each tintable part in three sub-layers (white midtone that gets tinted + highlight +
-soft shadow) so it reads dimensional in any color.
+Your Auries aren't just characters sitting in a collection.
 
-## Family backgrounds
+Spend time with them at Home. Tap them, pet them, move them around, shake your device, and watch them react. Auries can move, bounce, tumble, make expressions, and play in their family worlds.
 
-Each aura family has one soft full-screen **background** (7 total), shown on the
-single-creature screens (Home + full-screen view) and reflecting the creature's family.
-Grid and camera stay neutral. Display with **aspect-fill** and keep the focal art
-centered (safe-zone rule in `ART_GUIDE.md`). 
+TAKE A QUIET MOMENT
 
-## Object recognition (Vision)
+When you want something calmer, spend some time with your Aurie in Calm Mode.
 
-`VNClassifyImageRequest` runs on-device, no training, returns labels + confidence. Your
-app: sample dominant color + shape (Layer 1), run Vision for a label + confidence, bucket
-the label into an `ObjectCategory` via a lookup table you maintain, and hand a
-`RecognizedObject` to `generate` (or `nil` for unknown).
+Play with gentle particles, enjoy a quieter space, or use the Worry Jar to write down something that's bothering you. Your Aurie can hold onto it for a moment, and when you're ready, release it and watch it disappear.
 
-## Expanding content (all JSON)
+Your written worry is not saved.
 
-- **Lines / voice / traits:** edit a family's `lineTemplates`, `moods`, `shake`, `pet`,
-  and `traits` (personality adjectives). Add Starlight one-offs to its `lineTemplates`.
-  Shared play barks live in `sharedPlay`.
-- **Object additions:** add IDs to a category's slot pools in `categories`.
-- **Hero object:** add an entry to `heroes` with its label, category, and signature slot id(s).
-- **Base parts:** add sprites and bump `eyesCount` / `mouthCount` / `limbsCount` in the generator.
-- **Backgrounds:** add a `background_<family>` image per family (see `ART_GUIDE.md`).
+THERE'S ALWAYS ANOTHER AURIE TO MEET
 
-## Where this fits 
+Hatch new Auries. Find different combinations. Collect charms. Discover your favorites. And keep building a collection that's completely your own.
 
-Scaffolding, tabs, persistence, and the sample-image hatch flow (photo → egg → crack →
-reveal → auto-save) are already built. Next is core play, then the egg
-personalities, family hatch/reaction particle effects, a birth reaction, idle moments,
-expression states, and haptics (all app-side behaviors layered on `AurieNode`, specified
-in `BUILD_BRIEF.md`, not in these data/model files) — then monetization.
+Take a photo.
 
-Monetization is **consumable hatch packs only**: free hatches (3 on day one, then 1/day), use RevenueCat
+Hatch an egg.
+
+Meet your Aurie.
