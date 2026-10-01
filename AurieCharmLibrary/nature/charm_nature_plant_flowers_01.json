@@ -1,0 +1,96 @@
+{
+  "id": "charm_nature_plant_flowers_01",
+  "displayName": "Flowering Plant",
+  "category": "nature",
+  "sourceFilename": "Plant_Flowers.blend",
+  "sourceSHA256": "a684626511c7ecfe64b6e1c15d5e2b7d2b6665cf2ec84a569188e941cddccd29",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "botanical",
+  "seconds": 1.1,
+  "sourceComplete": false,
+  "texturesRelinked": [
+    {
+      "image": "Bush_Leaves.png.001",
+      "wanted": "Bush_Leaves.png",
+      "resolved": "Bush_Leaves.png",
+      "match": "exact"
+    },
+    {
+      "image": "Flowers.png.001",
+      "wanted": "Flowers.png",
+      "resolved": "Flowers.png",
+      "match": "exact"
+    }
+  ],
+  "colourComplete": true,
+  "missingTextures": [
+    {
+      "name": "Texture.png",
+      "path": "//\u00a0/Blender/DavidThorn/Library/Large/Texture.png"
+    }
+  ],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 1,
+    "kinds": {
+      "MESH": 1
+    },
+    "polys": 180,
+    "droppedObjects": {
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": []
+  },
+  "geometry": {
+    "polysAfter": 1570,
+    "scaleApplied": 0.64838,
+    "extentsNormalized": [
+      1.0,
+      1.0115,
+      0.7698
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": false,
+      "steps": [
+        "yaw-90",
+        "pitch-6/yaw-10"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 242 edges >55deg, 132 corner verts)",
+      "bevel 0.009x3",
+      "smooth<60deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "Flowers",
+      "source": "texture",
+      "colour": null,
+      "orphanShaderNodesIgnored": 0
+    },
+    {
+      "name": "Bush_Leaves",
+      "source": "texture",
+      "colour": null,
+      "orphanShaderNodesIgnored": 0
+    }
+  ],
+  "attachment": {
+    "type": "HEAD",
+    "position": [
+      0.0151,
+      0.0271,
+      -0.3849
+    ],
+    "normal": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

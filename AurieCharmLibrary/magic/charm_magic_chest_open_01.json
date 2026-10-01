@@ -1,0 +1,101 @@
+{
+  "id": "charm_magic_chest_open_01",
+  "displayName": "Open Treasure Chest",
+  "category": "magic",
+  "sourceFilename": "Chest_Open.blend",
+  "sourceSHA256": "46bbd47c014d98de53873075adad641e7851a4877bdfa9a2da7771e9bf786ee5",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "mechanical",
+  "seconds": 1.4,
+  "sourceComplete": false,
+  "texturesRelinked": [],
+  "colourComplete": true,
+  "missingTextures": [
+    {
+      "name": "Texture.png",
+      "path": "//\u00a0/Blender/DavidThorn/Library/Large/Texture.png"
+    }
+  ],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 1,
+    "kinds": {
+      "MESH": 1
+    },
+    "polys": 844,
+    "droppedObjects": {
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": []
+  },
+  "geometry": {
+    "polysAfter": 8491,
+    "scaleApplied": 0.82023,
+    "extentsNormalized": [
+      0.9303,
+      0.9726,
+      1.0
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": false,
+      "steps": [
+        "yaw-90",
+        "pitch-5/yaw-16"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 1118 edges >55deg, 468 corner verts)",
+      "bevel 0.010x3",
+      "smooth<58deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "DarkMetal",
+      "source": "colour",
+      "colour": [
+        0.0631,
+        0.0517,
+        0.0946
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "Wood",
+      "source": "colour",
+      "colour": [
+        0.2019,
+        0.104,
+        0.0793
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "Metal",
+      "source": "colour",
+      "colour": [
+        0.077,
+        0.0683,
+        0.1149
+      ],
+      "orphanShaderNodesIgnored": 1
+    }
+  ],
+  "attachment": {
+    "type": "BODY_FRONT",
+    "position": [
+      -0.1662,
+      0.4431,
+      -0.0051
+    ],
+    "normal": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "id": "charm_food_icecream_02",
+  "displayName": "Ice Cream Cone",
+  "category": "food",
+  "sourceFilename": "IceCream_2.blend",
+  "sourceSHA256": "ce79e252c57147188de6ecb818743b2fb96b35d803eae55b5babe5d51eeac0ee",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "plush",
+  "seconds": 0.9,
+  "sourceComplete": false,
+  "texturesRelinked": [],
+  "colourComplete": true,
+  "missingTextures": [
+    {
+      "name": "Texture.png",
+      "path": "//\u00a0/Blender/DavidThorn/Library/Large/Texture.png"
+    }
+  ],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 1,
+    "kinds": {
+      "MESH": 1
+    },
+    "polys": 394,
+    "droppedObjects": {
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": []
+  },
+  "geometry": {
+    "polysAfter": 4210,
+    "scaleApplied": 0.63817,
+    "extentsNormalized": [
+      0.4595,
+      0.457,
+      1.0
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": false,
+      "steps": [
+        "yaw-90",
+        "pitch-6/yaw-12"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 260 edges >55deg, 176 corner verts)",
+      "bevel 0.020x3",
+      "smooth<65deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "LightYellow",
+      "source": "colour",
+      "colour": [
+        0.4575,
+        0.3235,
+        0.1709
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "PalePink",
+      "source": "colour",
+      "colour": [
+        0.5071,
+        0.1657,
+        0.3091
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "PalePink2",
+      "source": "colour",
+      "colour": [
+        0.3137,
+        0.1117,
+        0.3343
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "White",
+      "source": "colour",
+      "colour": [
+        0.4575,
+        0.4575,
+        0.4575
+      ],
+      "orphanShaderNodesIgnored": 1
+    }
+  ],
+  "attachment": {
+    "type": "BODY_FRONT",
+    "position": [
+      0.0368,
+      0.2262,
+      -0.0042
+    ],
+    "normal": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

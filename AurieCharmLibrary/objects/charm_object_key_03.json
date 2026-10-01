@@ -1,0 +1,81 @@
+{
+  "id": "charm_object_key_03",
+  "displayName": "Key",
+  "category": "objects",
+  "sourceFilename": "Key3.blend",
+  "sourceSHA256": "f3d6721769132229af8eada0668da7532a1360ae7beecbd2c22c103ea39c59f4",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "mechanical",
+  "seconds": 0.8,
+  "sourceComplete": false,
+  "texturesRelinked": [],
+  "colourComplete": true,
+  "missingTextures": [
+    {
+      "name": "Texture.png",
+      "path": "//\u00a0/Blender/DavidThorn/Library/Large/Texture.png"
+    }
+  ],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 1,
+    "kinds": {
+      "MESH": 1
+    },
+    "polys": 369,
+    "droppedObjects": {
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": []
+  },
+  "geometry": {
+    "polysAfter": 6282,
+    "scaleApplied": 0.91784,
+    "extentsNormalized": [
+      0.4214,
+      0.1434,
+      1.0
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": true,
+      "steps": [
+        "stand-up",
+        "pitch-5/yaw0"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 454 edges >55deg, 308 corner verts)",
+      "bevel 0.010x3",
+      "smooth<58deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "DarkSteel",
+      "source": "colour",
+      "colour": [
+        0.2664,
+        0.2664,
+        0.2232
+      ],
+      "orphanShaderNodesIgnored": 2
+    }
+  ],
+  "attachment": {
+    "type": "HANGING",
+    "position": [
+      0.0011,
+      0.0267,
+      0.4993
+    ],
+    "normal": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

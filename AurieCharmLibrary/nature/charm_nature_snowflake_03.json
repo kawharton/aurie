@@ -1,0 +1,79 @@
+{
+  "id": "charm_nature_snowflake_03",
+  "displayName": "Snowflake",
+  "category": "nature",
+  "sourceFilename": "Snowflake3.blend",
+  "sourceSHA256": "6e30efb0637c757bbf11036d250b7d31f752ae831b53679324dca1f7c0399017",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "filigree",
+  "seconds": 1.0,
+  "sourceComplete": false,
+  "texturesRelinked": [],
+  "colourComplete": true,
+  "missingTextures": [
+    {
+      "name": "Texture.png",
+      "path": "//\u00a0/Blender/DavidThorn/Library/Large/Texture.png"
+    }
+  ],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 1,
+    "kinds": {
+      "MESH": 1
+    },
+    "polys": 752,
+    "droppedObjects": {
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": []
+  },
+  "geometry": {
+    "polysAfter": 1574,
+    "scaleApplied": 1.13911,
+    "extentsNormalized": [
+      1.0,
+      0.1149,
+      1.0
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": false,
+      "steps": [
+        "pitch0/yaw0"
+      ]
+    },
+    "softening": [
+      "bevel 0.004x2",
+      "faceted"
+    ]
+  },
+  "materials": [
+    {
+      "name": "Snowflake",
+      "source": "colour",
+      "colour": [
+        0.1536,
+        0.8,
+        0.5667
+      ],
+      "orphanShaderNodesIgnored": 2
+    }
+  ],
+  "attachment": {
+    "type": "HANGING",
+    "position": [
+      -0.0001,
+      0.0,
+      0.4961
+    ],
+    "normal": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

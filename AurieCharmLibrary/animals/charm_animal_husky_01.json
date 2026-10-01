@@ -1,0 +1,135 @@
+{
+  "id": "charm_animal_husky_01",
+  "displayName": "Husky",
+  "category": "animals",
+  "sourceFilename": "Husky.blend",
+  "sourceSHA256": "c3214271cbce42ecf0f2abf1bf9b66c3a2ddb36ba9d5d02293583320502b40db",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "creature",
+  "seconds": 1.1,
+  "sourceComplete": false,
+  "texturesRelinked": [],
+  "colourComplete": true,
+  "missingTextures": [
+    {
+      "name": "Texture.png",
+      "path": "//../\u00a0/Blender/DavidThorn/Library/Large/Texture.png"
+    }
+  ],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 2,
+    "kinds": {
+      "MESH": 1,
+      "ARMATURE": 1
+    },
+    "polys": 990,
+    "droppedObjects": {
+      "ARMATURE": 1,
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": [
+      "objectmode:AnimalArmature"
+    ]
+  },
+  "geometry": {
+    "polysAfter": 5980,
+    "scaleApplied": 0.27472,
+    "extentsNormalized": [
+      1.0,
+      0.4993,
+      0.8916
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": false,
+      "steps": [
+        "yaw-90",
+        "pitch-5/yaw-22"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 197 edges >55deg, 70 corner verts)",
+      "bevel 0.012x3",
+      "smooth<62deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "Material",
+      "source": "colour",
+      "colour": [
+        0.0649,
+        0.0668,
+        0.0596
+      ],
+      "orphanShaderNodesIgnored": 2
+    },
+    {
+      "name": "Material.006",
+      "source": "colour",
+      "colour": [
+        0.0272,
+        0.0272,
+        0.0272
+      ],
+      "orphanShaderNodesIgnored": 2
+    },
+    {
+      "name": "Material.001",
+      "source": "colour",
+      "colour": [
+        0.3644,
+        0.3757,
+        0.3315
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "Material.002",
+      "source": "colour",
+      "colour": [
+        0.0064,
+        0.0064,
+        0.0064
+      ],
+      "orphanShaderNodesIgnored": 2
+    },
+    {
+      "name": "Material.003",
+      "source": "colour",
+      "colour": [
+        0.8689,
+        0.8689,
+        0.8689
+      ],
+      "orphanShaderNodesIgnored": 2
+    },
+    {
+      "name": "Material.004",
+      "source": "colour",
+      "colour": [
+        0.0811,
+        0.2348,
+        0.2883
+      ],
+      "orphanShaderNodesIgnored": 2
+    }
+  ],
+  "attachment": {
+    "type": "BODY_SIDE",
+    "position": [
+      -0.4627,
+      0.1667,
+      0.172
+    ],
+    "normal": [
+      -1.0,
+      0.0,
+      0.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

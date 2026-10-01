@@ -1,0 +1,79 @@
+{
+  "id": "charm_magic_crystal_02",
+  "displayName": "Crystal",
+  "category": "magic",
+  "sourceFilename": "Crystal5.blend",
+  "sourceSHA256": "c6ff9ab8466bcfb029b088cf4ff6224ed6504cd8e3133d2cf7aac51bce2a7e38",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "faceted",
+  "seconds": 0.9,
+  "sourceComplete": false,
+  "texturesRelinked": [],
+  "colourComplete": true,
+  "missingTextures": [
+    {
+      "name": "Texture.png",
+      "path": "//\u00a0/Blender/DavidThorn/Library/Large/Texture.png"
+    }
+  ],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 1,
+    "kinds": {
+      "MESH": 1
+    },
+    "polys": 13,
+    "droppedObjects": {
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": []
+  },
+  "geometry": {
+    "polysAfter": 91,
+    "scaleApplied": 1.66362,
+    "extentsNormalized": [
+      1.0,
+      1.022,
+      0.7378
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": false,
+      "steps": [
+        "pitch-4/yaw-14"
+      ]
+    },
+    "softening": [
+      "bevel 0.006x2",
+      "faceted"
+    ]
+  },
+  "materials": [
+    {
+      "name": "Cyan",
+      "source": "colour",
+      "colour": [
+        0.1536,
+        0.8,
+        0.5667
+      ],
+      "orphanShaderNodesIgnored": 2
+    }
+  ],
+  "attachment": {
+    "type": "HANGING",
+    "position": [
+      -0.0057,
+      -0.0363,
+      -0.3642
+    ],
+    "normal": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

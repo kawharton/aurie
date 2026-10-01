@@ -1,0 +1,90 @@
+{
+  "id": "charm_object_padlock_01",
+  "displayName": "Padlock",
+  "category": "objects",
+  "sourceFilename": "Padlock.blend",
+  "sourceSHA256": "cd5e1a053ba273c751fc03407d16450cc83a2b7abcf23e8c2cd72d87b342c242",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "mechanical",
+  "seconds": 1.0,
+  "sourceComplete": false,
+  "texturesRelinked": [],
+  "colourComplete": true,
+  "missingTextures": [
+    {
+      "name": "Texture.png",
+      "path": "//\u00a0/Blender/DavidThorn/Library/Large/Texture.png"
+    }
+  ],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 1,
+    "kinds": {
+      "MESH": 1
+    },
+    "polys": 283,
+    "droppedObjects": {
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": []
+  },
+  "geometry": {
+    "polysAfter": 1978,
+    "scaleApplied": 1.02528,
+    "extentsNormalized": [
+      0.6837,
+      0.465,
+      1.0
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": false,
+      "steps": [
+        "pitch-5/yaw-16"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 132 edges >55deg, 108 corner verts)",
+      "bevel 0.010x3",
+      "smooth<58deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "Grey",
+      "source": "colour",
+      "colour": [
+        0.0668,
+        0.0668,
+        0.0668
+      ],
+      "orphanShaderNodesIgnored": 2
+    },
+    {
+      "name": "Black",
+      "source": "colour",
+      "colour": [
+        0.0174,
+        0.0174,
+        0.0174
+      ],
+      "orphanShaderNodesIgnored": 2
+    }
+  ],
+  "attachment": {
+    "type": "HANGING",
+    "position": [
+      0.0155,
+      0.0494,
+      0.4951
+    ],
+    "normal": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

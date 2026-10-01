@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79C0F1B32FFF25D9000EADFE /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = 79C0F1B22FFF25D9000EADFE /* RevenueCat */; };
+		7A8B1D0D2FFF25D8000EAD0D /* AuriesWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7A8B1D012FFF25D8000EAD01 /* AuriesWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A8B1D0E2FFF25D8000EAD0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 793CCF532FFF25D8000EADFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A8B1D052FFF25D8000EAD05;
+			remoteInfo = AuriesWidget;
+		};
+		7A8B1E0E2FFF25D8000EAE0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 793CCF532FFF25D8000EADFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 793CCF5A2FFF25D8000EADFE;
+			remoteInfo = Auries;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7A8B1D0C2FFF25D8000EAD0C /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7A8B1D0D2FFF25D8000EAD0D /* AuriesWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		793CCF5B2FFF25D8000EADFE /* Auries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Auries.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79C0F1A12FFF25D9000EADFE /* Config/AurieConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config/AurieConfig.xcconfig; sourceTree = SOURCE_ROOT; };
+		7A8B1D012FFF25D8000EAD01 /* AuriesWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AuriesWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A8B1E112FFF25D8000EAE11 /* AuriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuriesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		793CCF702FFF25D9000EADFE /* Exceptions for "Auries" folder in "Auries" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 793CCF5A2FFF25D8000EADFE /* Auries */;
+		};
+		7A8B1D032FFF25D8000EAD03 /* Exceptions for "AuriesWidget" folder in "AuriesWidget" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 7A8B1D052FFF25D8000EAD05 /* AuriesWidget */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		793CCF5D2FFF25D8000EADFE /* Auries */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				793CCF702FFF25D9000EADFE /* Exceptions for "Auries" folder in "Auries" target */,
+			);
+			path = Auries;
+			sourceTree = "<group>";
+		};
+		7A8B1D022FFF25D8000EAD02 /* AuriesWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7A8B1D032FFF25D8000EAD03 /* Exceptions for "AuriesWidget" folder in "AuriesWidget" target */,
+			);
+			path = AuriesWidget;
+			sourceTree = "<group>";
+		};
+		7A8B1D042FFF25D8000EAD04 /* AuriesShared */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AuriesShared;
+			sourceTree = "<group>";
+		};
+		7A8B1E012FFF25D8000EAE01 /* AuriesUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AuriesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		793CCF582FFF25D8000EADFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79C0F1B32FFF25D9000EADFE /* RevenueCat in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A8B1D072FFF25D8000EAD07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A8B1E072FFF25D8000EAE07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2287BE27306817A3004D1C36 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				79C0F1A12FFF25D9000EADFE /* Config/AurieConfig.xcconfig */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		793CCF522FFF25D8000EADFE = {
+			isa = PBXGroup;
+			children = (
+				793CCF5D2FFF25D8000EADFE /* Auries */,
+				7A8B1D042FFF25D8000EAD04 /* AuriesShared */,
+				7A8B1D022FFF25D8000EAD02 /* AuriesWidget */,
+				7A8B1E012FFF25D8000EAE01 /* AuriesUITests */,
+				793CCF5C2FFF25D8000EADFE /* Products */,
+				2287BE27306817A3004D1C36 /* Recovered References */,
+			);
+			sourceTree = "<group>";
+		};
+		793CCF5C2FFF25D8000EADFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				793CCF5B2FFF25D8000EADFE /* Auries.app */,
+				7A8B1D012FFF25D8000EAD01 /* AuriesWidget.appex */,
+				7A8B1E112FFF25D8000EAE11 /* AuriesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		793CCF5A2FFF25D8000EADFE /* Auries */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 793CCF712FFF25D9000EADFE /* Build configuration list for PBXNativeTarget "Auries" */;
+			buildPhases = (
+				793CCF572FFF25D8000EADFE /* Sources */,
+				793CCF582FFF25D8000EADFE /* Frameworks */,
+				793CCF592FFF25D8000EADFE /* Resources */,
+				7A8B1D0C2FFF25D8000EAD0C /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A8B1D0F2FFF25D8000EAD0F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				793CCF5D2FFF25D8000EADFE /* Auries */,
+				7A8B1D042FFF25D8000EAD04 /* AuriesShared */,
+			);
+			name = Auries;
+			packageProductDependencies = (
+				79C0F1B22FFF25D9000EADFE /* RevenueCat */,
+			);
+			productName = Auries;
+			productReference = 793CCF5B2FFF25D8000EADFE /* Auries.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A8B1D052FFF25D8000EAD05 /* AuriesWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A8B1D092FFF25D8000EAD09 /* Build configuration list for PBXNativeTarget "AuriesWidget" */;
+			buildPhases = (
+				7A8B1D062FFF25D8000EAD06 /* Sources */,
+				7A8B1D072FFF25D8000EAD07 /* Frameworks */,
+				7A8B1D082FFF25D8000EAD08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7A8B1D022FFF25D8000EAD02 /* AuriesWidget */,
+				7A8B1D042FFF25D8000EAD04 /* AuriesShared */,
+			);
+			name = AuriesWidget;
+			packageProductDependencies = (
+			);
+			productName = AuriesWidget;
+			productReference = 7A8B1D012FFF25D8000EAD01 /* AuriesWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		7A8B1E052FFF25D8000EAE05 /* AuriesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A8B1E092FFF25D8000EAE09 /* Build configuration list for PBXNativeTarget "AuriesUITests" */;
+			buildPhases = (
+				7A8B1E062FFF25D8000EAE06 /* Sources */,
+				7A8B1E072FFF25D8000EAE07 /* Frameworks */,
+				7A8B1E082FFF25D8000EAE08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A8B1E0F2FFF25D8000EAE0F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7A8B1E012FFF25D8000EAE01 /* AuriesUITests */,
+			);
+			name = AuriesUITests;
+			packageProductDependencies = (
+			);
+			productName = AuriesUITests;
+			productReference = 7A8B1E112FFF25D8000EAE11 /* AuriesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		793CCF532FFF25D8000EADFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					793CCF5A2FFF25D8000EADFE = {
+						CreatedOnToolsVersion = 26.6;
+					};
+					7A8B1D052FFF25D8000EAD05 = {
+						CreatedOnToolsVersion = 26.6;
+					};
+					7A8B1E052FFF25D8000EAE05 = {
+						CreatedOnToolsVersion = 26.6;
+						TestTargetID = 793CCF5A2FFF25D8000EADFE;
+					};
+				};
+			};
+			buildConfigurationList = 793CCF562FFF25D8000EADFE /* Build configuration list for PBXProject "Auries" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 793CCF522FFF25D8000EADFE;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				79C0F1B12FFF25D9000EADFE /* XCRemoteSwiftPackageReference "purchases-ios" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 793CCF5C2FFF25D8000EADFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				793CCF5A2FFF25D8000EADFE /* Auries */,
+				7A8B1D052FFF25D8000EAD05 /* AuriesWidget */,
+				7A8B1E052FFF25D8000EAE05 /* AuriesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		793CCF592FFF25D8000EADFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A8B1D082FFF25D8000EAD08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A8B1E082FFF25D8000EAE08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		793CCF572FFF25D8000EADFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A8B1D062FFF25D8000EAD06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A8B1E062FFF25D8000EAE06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A8B1D0F2FFF25D8000EAD0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A8B1D052FFF25D8000EAD05 /* AuriesWidget */;
+			targetProxy = 7A8B1D0E2FFF25D8000EAD0E /* PBXContainerItemProxy */;
+		};
+		7A8B1E0F2FFF25D8000EAE0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 793CCF5A2FFF25D8000EADFE /* Auries */;
+			targetProxy = 7A8B1E0E2FFF25D8000EAE0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		793CCF722FFF25D9000EADFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79C0F1A12FFF25D9000EADFE /* Config/AurieConfig.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Config/Auries.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = P5H8TS93CL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Auries/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Aurie;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kwharton.auries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		793CCF732FFF25D9000EADFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79C0F1A12FFF25D9000EADFE /* Config/AurieConfig.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Config/Auries.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = P5H8TS93CL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Auries/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Aurie;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kwharton.auries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		793CCF742FFF25D9000EADFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		793CCF752FFF25D9000EADFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A8B1D0A2FFF25D8000EAD0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Config/AuriesWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = P5H8TS93CL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AuriesWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Aurie;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kwharton.auries.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A8B1D0B2FFF25D8000EAD0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Config/AuriesWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = P5H8TS93CL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AuriesWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Aurie;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kwharton.auries.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7A8B1E0A2FFF25D8000EAE0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = P5H8TS93CL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kwharton.auries.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Auries;
+			};
+			name = Debug;
+		};
+		7A8B1E0B2FFF25D8000EAE0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = P5H8TS93CL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kwharton.auries.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Auries;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		793CCF562FFF25D8000EADFE /* Build configuration list for PBXProject "Auries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				793CCF742FFF25D9000EADFE /* Debug */,
+				793CCF752FFF25D9000EADFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		793CCF712FFF25D9000EADFE /* Build configuration list for PBXNativeTarget "Auries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				793CCF722FFF25D9000EADFE /* Debug */,
+				793CCF732FFF25D9000EADFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A8B1D092FFF25D8000EAD09 /* Build configuration list for PBXNativeTarget "AuriesWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A8B1D0A2FFF25D8000EAD0A /* Debug */,
+				7A8B1D0B2FFF25D8000EAD0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A8B1E092FFF25D8000EAE09 /* Build configuration list for PBXNativeTarget "AuriesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A8B1E0A2FFF25D8000EAE0A /* Debug */,
+				7A8B1E0B2FFF25D8000EAE0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		79C0F1B12FFF25D9000EADFE /* XCRemoteSwiftPackageReference "purchases-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RevenueCat/purchases-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		79C0F1B22FFF25D9000EADFE /* RevenueCat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79C0F1B12FFF25D9000EADFE /* XCRemoteSwiftPackageReference "purchases-ios" */;
+			productName = RevenueCat;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 793CCF532FFF25D8000EADFE /* Project object */;
+}

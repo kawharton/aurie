@@ -1,0 +1,90 @@
+{
+  "id": "charm_nature_wood_log_01",
+  "displayName": "Wood Log",
+  "category": "nature",
+  "sourceFilename": "WoodLog.blend",
+  "sourceSHA256": "1f6dc2197bf982194f44407f3bfc1e443e6c84223625fb54dea5d714296d2eb9",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "mechanical",
+  "seconds": 0.8,
+  "sourceComplete": false,
+  "texturesRelinked": [],
+  "colourComplete": true,
+  "missingTextures": [
+    {
+      "name": "Texture.png",
+      "path": "//\u00a0/Blender/DavidThorn/Library/Large/Texture.png"
+    }
+  ],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 1,
+    "kinds": {
+      "MESH": 1
+    },
+    "polys": 105,
+    "droppedObjects": {
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": []
+  },
+  "geometry": {
+    "polysAfter": 702,
+    "scaleApplied": 0.26002,
+    "extentsNormalized": [
+      1.0,
+      0.5219,
+      0.2837
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": false,
+      "steps": [
+        "pitch-5/yaw-16"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 37 edges >55deg, 28 corner verts)",
+      "bevel 0.010x3",
+      "smooth<58deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "Wood",
+      "source": "colour",
+      "colour": [
+        0.1529,
+        0.0855,
+        0.066
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "LightWood",
+      "source": "colour",
+      "colour": [
+        0.1845,
+        0.1042,
+        0.0869
+      ],
+      "orphanShaderNodesIgnored": 1
+    }
+  ],
+  "attachment": {
+    "type": "BODY_SIDE",
+    "position": [
+      -0.4998,
+      0.0034,
+      0.0036
+    ],
+    "normal": [
+      -1.0,
+      0.0,
+      0.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

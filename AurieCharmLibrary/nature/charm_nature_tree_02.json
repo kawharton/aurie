@@ -1,0 +1,99 @@
+{
+  "id": "charm_nature_tree_02",
+  "displayName": "Tree (Alt)",
+  "category": "nature",
+  "sourceFilename": "NormalTree_5.blend",
+  "sourceSHA256": "538738266d73419a900e461b4ad8d212b74e2dd85df4f9d3691aaf3709d8d14e",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "botanical",
+  "seconds": 2.4,
+  "sourceComplete": false,
+  "texturesRelinked": [
+    {
+      "image": "NormalTree_Bark.png",
+      "wanted": "NormalTree_Bark.png",
+      "resolved": "NormalTree_Bark.png",
+      "match": "exact"
+    },
+    {
+      "image": "NormalTree_Leaves.png",
+      "wanted": "NormalTree_Leaves.png",
+      "resolved": "NormalTree_Leaves.png",
+      "match": "exact"
+    }
+  ],
+  "colourComplete": true,
+  "missingTextures": [
+    {
+      "name": "NormalTree_Normal.png.001",
+      "path": "//../NormalTree_Normal.png"
+    },
+    {
+      "name": "Texture.png",
+      "path": "//\u00a0/Blender/DavidThorn/Library/Large/Texture.png"
+    }
+  ],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 1,
+    "kinds": {
+      "MESH": 1
+    },
+    "polys": 1091,
+    "droppedObjects": {
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": []
+  },
+  "geometry": {
+    "polysAfter": 4928,
+    "scaleApplied": 0.31511,
+    "extentsNormalized": [
+      1.0,
+      0.7871,
+      0.931
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": false,
+      "steps": [
+        "pitch-6/yaw-10"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 1772 edges >55deg, 1734 corner verts)",
+      "bevel 0.009x3",
+      "smooth<60deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "NormalTree_Bark",
+      "source": "texture",
+      "colour": null,
+      "orphanShaderNodesIgnored": 0
+    },
+    {
+      "name": "NormalTree_Leaves",
+      "source": "texture",
+      "colour": null,
+      "orphanShaderNodesIgnored": 0
+    }
+  ],
+  "attachment": {
+    "type": "BODY_SIDE",
+    "position": [
+      -0.5,
+      -0.1123,
+      0.032
+    ],
+    "normal": [
+      -1.0,
+      0.0,
+      0.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

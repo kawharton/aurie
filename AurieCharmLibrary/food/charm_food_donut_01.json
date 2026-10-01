@@ -1,0 +1,101 @@
+{
+  "id": "charm_food_donut_01",
+  "displayName": "Donut",
+  "category": "food",
+  "sourceFilename": "Donut2.blend",
+  "sourceSHA256": "e2310c36b6225cbaab036236d0891a9cf342d55beda32e8d2c76480f717d4259",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "plush",
+  "seconds": 1.2,
+  "sourceComplete": false,
+  "texturesRelinked": [],
+  "colourComplete": true,
+  "missingTextures": [
+    {
+      "name": "Texture.png",
+      "path": "//\u00a0/Blender/DavidThorn/Library/Large/Texture.png"
+    }
+  ],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 1,
+    "kinds": {
+      "MESH": 1
+    },
+    "polys": 495,
+    "droppedObjects": {
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": []
+  },
+  "geometry": {
+    "polysAfter": 7144,
+    "scaleApplied": 1.13697,
+    "extentsNormalized": [
+      1.0,
+      0.3984,
+      0.9884
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": true,
+      "steps": [
+        "stand-up",
+        "pitch-6/yaw0"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 477 edges >55deg, 309 corner verts)",
+      "bevel 0.020x3",
+      "smooth<65deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "LightYellow",
+      "source": "colour",
+      "colour": [
+        0.4575,
+        0.3235,
+        0.1709
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "Yellow",
+      "source": "colour",
+      "colour": [
+        0.5277,
+        0.3498,
+        0.0725
+      ],
+      "orphanShaderNodesIgnored": 2
+    },
+    {
+      "name": "Orange",
+      "source": "colour",
+      "colour": [
+        0.4575,
+        0.1578,
+        0.0465
+      ],
+      "orphanShaderNodesIgnored": 1
+    }
+  ],
+  "attachment": {
+    "type": "HANGING",
+    "position": [
+      -0.0367,
+      0.0288,
+      0.4845
+    ],
+    "normal": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

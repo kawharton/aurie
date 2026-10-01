@@ -1,0 +1,90 @@
+{
+  "id": "charm_food_chicken_leg_01",
+  "displayName": "Chicken Leg",
+  "category": "food",
+  "sourceFilename": "ChickenLeg.blend",
+  "sourceSHA256": "2662532bb720f8f22509dad5620ba71980e607a4322e2a461ca714b2bb18edd9",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "plush",
+  "seconds": 0.9,
+  "sourceComplete": false,
+  "texturesRelinked": [],
+  "colourComplete": true,
+  "missingTextures": [
+    {
+      "name": "Texture.png",
+      "path": "//\u00a0/Blender/DavidThorn/Library/Large/Texture.png"
+    }
+  ],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 1,
+    "kinds": {
+      "MESH": 1
+    },
+    "polys": 144,
+    "droppedObjects": {
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": []
+  },
+  "geometry": {
+    "polysAfter": 847,
+    "scaleApplied": 0.72979,
+    "extentsNormalized": [
+      1.0,
+      0.4844,
+      0.4221
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": false,
+      "steps": [
+        "pitch-6/yaw-12"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 12 edges >55deg, 7 corner verts)",
+      "bevel 0.020x3",
+      "smooth<65deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "DarkBrown",
+      "source": "colour",
+      "colour": [
+        0.1574,
+        0.0711,
+        0.0468
+      ],
+      "orphanShaderNodesIgnored": 2
+    },
+    {
+      "name": "Beige",
+      "source": "colour",
+      "colour": [
+        0.3424,
+        0.2998,
+        0.2114
+      ],
+      "orphanShaderNodesIgnored": 2
+    }
+  ],
+  "attachment": {
+    "type": "BODY_FRONT",
+    "position": [
+      0.0885,
+      0.2293,
+      0.0291
+    ],
+    "normal": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

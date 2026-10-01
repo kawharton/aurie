@@ -1,0 +1,100 @@
+{
+  "id": "charm_food_icecream_01",
+  "displayName": "Ice Cream",
+  "category": "food",
+  "sourceFilename": "IceCream_1.blend",
+  "sourceSHA256": "bce61eea09f87061f50ee62ffcb03df8805dc6df9aac7f77bc6ec69ac1abd303",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "plush",
+  "seconds": 0.9,
+  "sourceComplete": false,
+  "texturesRelinked": [],
+  "colourComplete": true,
+  "missingTextures": [
+    {
+      "name": "Texture.png",
+      "path": "//\u00a0/Blender/DavidThorn/Library/Large/Texture.png"
+    }
+  ],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 1,
+    "kinds": {
+      "MESH": 1
+    },
+    "polys": 280,
+    "droppedObjects": {
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": []
+  },
+  "geometry": {
+    "polysAfter": 2786,
+    "scaleApplied": 0.8318,
+    "extentsNormalized": [
+      0.586,
+      0.5809,
+      1.0
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": false,
+      "steps": [
+        "pitch-6/yaw-12"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 164 edges >55deg, 112 corner verts)",
+      "bevel 0.020x3",
+      "smooth<65deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "LightYellow",
+      "source": "colour",
+      "colour": [
+        0.4575,
+        0.3235,
+        0.1709
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "LightGreen",
+      "source": "colour",
+      "colour": [
+        0.1356,
+        0.3564,
+        0.0685
+      ],
+      "orphanShaderNodesIgnored": 2
+    },
+    {
+      "name": "PaleGreen",
+      "source": "colour",
+      "colour": [
+        0.2311,
+        0.3564,
+        0.1479
+      ],
+      "orphanShaderNodesIgnored": 2
+    }
+  ],
+  "attachment": {
+    "type": "BODY_FRONT",
+    "position": [
+      -0.0273,
+      0.2772,
+      0.1587
+    ],
+    "normal": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

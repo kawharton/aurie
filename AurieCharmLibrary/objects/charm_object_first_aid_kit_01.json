@@ -1,0 +1,110 @@
+{
+  "id": "charm_object_first_aid_kit_01",
+  "displayName": "First Aid Kit",
+  "category": "objects",
+  "sourceFilename": "FirstAidKit_Hard.blend",
+  "sourceSHA256": "6a0b834a088fdf669bdb2e7f5e9e62c9958e7933dcce181c1a9a99dcd945aca5",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "mechanical",
+  "seconds": 1.1,
+  "sourceComplete": false,
+  "texturesRelinked": [],
+  "colourComplete": true,
+  "missingTextures": [
+    {
+      "name": "Texture.png",
+      "path": "//\u00a0/Blender/DavidThorn/Library/Large/Texture.png"
+    }
+  ],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 1,
+    "kinds": {
+      "MESH": 1
+    },
+    "polys": 127,
+    "droppedObjects": {
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": []
+  },
+  "geometry": {
+    "polysAfter": 2689,
+    "scaleApplied": 0.5034,
+    "extentsNormalized": [
+      1.0,
+      0.6051,
+      0.6575
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": false,
+      "steps": [
+        "pitch-5/yaw-16"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 178 edges >55deg, 142 corner verts)",
+      "bevel 0.010x3",
+      "smooth<58deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "White",
+      "source": "colour",
+      "colour": [
+        0.6982,
+        0.6982,
+        0.6982
+      ],
+      "orphanShaderNodesIgnored": 2
+    },
+    {
+      "name": "Red",
+      "source": "colour",
+      "colour": [
+        0.214,
+        0.0395,
+        0.0374
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "LightGrey",
+      "source": "colour",
+      "colour": [
+        0.3757,
+        0.3757,
+        0.3757
+      ],
+      "orphanShaderNodesIgnored": 2
+    },
+    {
+      "name": "Grey",
+      "source": "colour",
+      "colour": [
+        0.1424,
+        0.1424,
+        0.1424
+      ],
+      "orphanShaderNodesIgnored": 2
+    }
+  ],
+  "attachment": {
+    "type": "BODY_FRONT",
+    "position": [
+      0.0381,
+      0.1493,
+      -0.019
+    ],
+    "normal": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

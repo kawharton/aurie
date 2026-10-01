@@ -1,0 +1,91 @@
+{
+  "id": "charm_food_tomato_01",
+  "displayName": "Tomato",
+  "category": "food",
+  "sourceFilename": "Tomato.blend",
+  "sourceSHA256": "cf0f8aa4077a10e3d410697e4050924c00492fed7c05b48877d6584ee77d53fa",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "plush",
+  "seconds": 1.0,
+  "sourceComplete": false,
+  "texturesRelinked": [],
+  "colourComplete": true,
+  "missingTextures": [
+    {
+      "name": "Texture.png",
+      "path": "//\u00a0/Blender/DavidThorn/Library/Large/Texture.png"
+    }
+  ],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 1,
+    "kinds": {
+      "MESH": 1
+    },
+    "polys": 171,
+    "droppedObjects": {
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": []
+  },
+  "relativeScale": 1.0,
+  "geometry": {
+    "polysAfter": 1441,
+    "scaleApplied": 1.33566,
+    "extentsNormalized": [
+      1.0,
+      0.9924,
+      0.8321
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": false,
+      "steps": [
+        "pitch-6/yaw-12"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 80 edges >55deg, 28 corner verts)",
+      "bevel 0.020x3",
+      "smooth<65deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "DarkRed",
+      "source": "override",
+      "colour": [
+        0.1329,
+        0.0279,
+        0.0188
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "DarkGreen",
+      "source": "colour",
+      "colour": [
+        0.0306,
+        0.0607,
+        0.0277
+      ],
+      "orphanShaderNodesIgnored": 2
+    }
+  ],
+  "attachment": {
+    "type": "BODY_FRONT",
+    "position": [
+      0.0027,
+      0.4774,
+      -0.0813
+    ],
+    "normal": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

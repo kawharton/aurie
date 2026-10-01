@@ -1,0 +1,91 @@
+{
+  "id": "charm_nature_pumpkin_01",
+  "displayName": "Pumpkin",
+  "category": "nature",
+  "sourceFilename": "Pumpkin.blend",
+  "sourceSHA256": "590349a70ffd444ff6fa7b6bcff7b3d6757218e49b310bbd02af8386415abf15",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "plush",
+  "seconds": 1.0,
+  "sourceComplete": false,
+  "texturesRelinked": [],
+  "colourComplete": true,
+  "missingTextures": [
+    {
+      "name": "Texture.png",
+      "path": "//\u00a0/Blender/DavidThorn/Library/Large/Texture.png"
+    }
+  ],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 1,
+    "kinds": {
+      "MESH": 1
+    },
+    "polys": 320,
+    "droppedObjects": {
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": []
+  },
+  "geometry": {
+    "polysAfter": 1978,
+    "scaleApplied": 0.66767,
+    "extentsNormalized": [
+      1.0,
+      0.9907,
+      0.6377
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": false,
+      "steps": [
+        "yaw-90",
+        "pitch-6/yaw-12"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 68 edges >55deg, 22 corner verts)",
+      "bevel 0.020x3",
+      "smooth<65deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "Brown",
+      "source": "colour",
+      "colour": [
+        0.1626,
+        0.1051,
+        0.0462
+      ],
+      "orphanShaderNodesIgnored": 2
+    },
+    {
+      "name": "Orange",
+      "source": "colour",
+      "colour": [
+        0.4575,
+        0.1578,
+        0.0465
+      ],
+      "orphanShaderNodesIgnored": 1
+    }
+  ],
+  "attachment": {
+    "type": "BODY_FRONT",
+    "position": [
+      0.0506,
+      0.4833,
+      -0.0675
+    ],
+    "normal": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

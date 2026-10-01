@@ -1,0 +1,100 @@
+{
+  "id": "charm_food_apple_01",
+  "displayName": "Green Apple",
+  "category": "food",
+  "sourceFilename": "Apple_Green.blend",
+  "sourceSHA256": "1d0c7f9399088b10fb6a2746b3e5ee50a48b02105c56be46cc5bfd6eac14370b",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "plush",
+  "seconds": 1.1,
+  "sourceComplete": false,
+  "texturesRelinked": [],
+  "colourComplete": true,
+  "missingTextures": [
+    {
+      "name": "Texture.png",
+      "path": "//\u00a0/Blender/DavidThorn/Library/Large/Texture.png"
+    }
+  ],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 1,
+    "kinds": {
+      "MESH": 1
+    },
+    "polys": 229,
+    "droppedObjects": {
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": []
+  },
+  "geometry": {
+    "polysAfter": 1420,
+    "scaleApplied": 1.17378,
+    "extentsNormalized": [
+      0.9739,
+      0.9659,
+      1.0
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": false,
+      "steps": [
+        "pitch-6/yaw-12"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 55 edges >55deg, 22 corner verts)",
+      "bevel 0.020x3",
+      "smooth<65deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "PaleGreen",
+      "source": "colour",
+      "colour": [
+        0.2311,
+        0.3564,
+        0.1479
+      ],
+      "orphanShaderNodesIgnored": 2
+    },
+    {
+      "name": "DarkBrown",
+      "source": "colour",
+      "colour": [
+        0.1574,
+        0.0711,
+        0.0468
+      ],
+      "orphanShaderNodesIgnored": 2
+    },
+    {
+      "name": "DarkGreen",
+      "source": "colour",
+      "colour": [
+        0.0306,
+        0.0607,
+        0.0277
+      ],
+      "orphanShaderNodesIgnored": 2
+    }
+  ],
+  "attachment": {
+    "type": "BODY_FRONT",
+    "position": [
+      0.0045,
+      0.443,
+      0.0337
+    ],
+    "normal": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

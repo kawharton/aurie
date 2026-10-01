@@ -1,0 +1,141 @@
+{
+  "id": "charm_vehicle_car_02",
+  "displayName": "Car (Alt)",
+  "category": "vehicles",
+  "sourceFilename": "NormalCar2.blend",
+  "sourceSHA256": "bdccc82faaa42f35d726c1d0f7c96bef3ae778258c9020ccf35beeb09180a9df",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "mechanical",
+  "seconds": 1.0,
+  "sourceComplete": false,
+  "texturesRelinked": [],
+  "colourComplete": true,
+  "missingTextures": [
+    {
+      "name": "Texture.png",
+      "path": "//\u00a0/Blender/DavidThorn/Library/Large/Texture.png"
+    }
+  ],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 4,
+    "kinds": {
+      "MESH": 4
+    },
+    "polys": 1566,
+    "droppedObjects": {
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": []
+  },
+  "geometry": {
+    "polysAfter": 25068,
+    "scaleApplied": 0.30067,
+    "extentsNormalized": [
+      1.0,
+      0.6326,
+      0.3691
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": false,
+      "steps": [
+        "yaw-90",
+        "pitch-5/yaw-16"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 1536 edges >55deg, 954 corner verts)",
+      "bevel 0.010x3",
+      "smooth<58deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "LightBlue",
+      "source": "colour",
+      "colour": [
+        0.5736,
+        0.6849,
+        0.8
+      ],
+      "orphanShaderNodesIgnored": 2
+    },
+    {
+      "name": "Windows",
+      "source": "colour",
+      "colour": [
+        0.0356,
+        0.0356,
+        0.0356
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "Black",
+      "source": "colour",
+      "colour": [
+        0.0137,
+        0.0137,
+        0.0137
+      ],
+      "orphanShaderNodesIgnored": 2
+    },
+    {
+      "name": "Grey",
+      "source": "colour",
+      "colour": [
+        0.2016,
+        0.2016,
+        0.2016
+      ],
+      "orphanShaderNodesIgnored": 2
+    },
+    {
+      "name": "Headlights",
+      "source": "colour",
+      "colour": [
+        0.7991,
+        0.3763,
+        0.1274
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "Material.007",
+      "source": "colour",
+      "colour": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "orphanShaderNodesIgnored": 0
+    },
+    {
+      "name": "TailLights",
+      "source": "colour",
+      "colour": [
+        0.7991,
+        0.0931,
+        0.0742
+      ],
+      "orphanShaderNodesIgnored": 1
+    }
+  ],
+  "attachment": {
+    "type": "BODY_SIDE",
+    "position": [
+      -0.4977,
+      0.033,
+      -0.0615
+    ],
+    "normal": [
+      -1.0,
+      0.0,
+      0.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

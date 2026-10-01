@@ -1,0 +1,81 @@
+{
+  "id": "charm_object_spoon_01",
+  "displayName": "Spoon",
+  "category": "objects",
+  "sourceFilename": "Spoon.blend",
+  "sourceSHA256": "6b4cea0da2089a9e0e2a13c354d922f03e0f49cb30a2efcdba54aadb1ff612a0",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "mechanical",
+  "seconds": 0.7,
+  "sourceComplete": false,
+  "texturesRelinked": [],
+  "colourComplete": true,
+  "missingTextures": [
+    {
+      "name": "Texture.png",
+      "path": "//\u00a0/Blender/DavidThorn/Library/Large/Texture.png"
+    }
+  ],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 1,
+    "kinds": {
+      "MESH": 1
+    },
+    "polys": 104,
+    "droppedObjects": {
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": []
+  },
+  "geometry": {
+    "polysAfter": 784,
+    "scaleApplied": 0.53178,
+    "extentsNormalized": [
+      0.2089,
+      0.1051,
+      1.0
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": true,
+      "steps": [
+        "stand-up",
+        "pitch-5/yaw0"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 38 edges >55deg, 26 corner verts)",
+      "bevel 0.010x3",
+      "smooth<58deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "Metal",
+      "source": "colour",
+      "colour": [
+        0.3424,
+        0.3424,
+        0.3424
+      ],
+      "orphanShaderNodesIgnored": 2
+    }
+  ],
+  "attachment": {
+    "type": "HANGING",
+    "position": [
+      0.0011,
+      0.0284,
+      0.4993
+    ],
+    "normal": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

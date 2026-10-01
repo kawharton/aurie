@@ -1,0 +1,91 @@
+{
+  "id": "charm_nature_tree_01",
+  "displayName": "Tree",
+  "category": "nature",
+  "sourceFilename": "CommonTree_5.blend",
+  "sourceSHA256": "74f763ab418d58b76b901666f4c881f5d35fe34c588f765673c194c7bb84689a",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "botanical",
+  "seconds": 1.0,
+  "sourceComplete": false,
+  "texturesRelinked": [],
+  "colourComplete": true,
+  "missingTextures": [
+    {
+      "name": "Texture.png",
+      "path": "//\u00a0/Blender/DavidThorn/Library/Large/Texture.png"
+    }
+  ],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 1,
+    "kinds": {
+      "MESH": 1
+    },
+    "polys": 918,
+    "droppedObjects": {
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": []
+  },
+  "geometry": {
+    "polysAfter": 5328,
+    "scaleApplied": 0.3891,
+    "extentsNormalized": [
+      0.8672,
+      0.5096,
+      1.0
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": false,
+      "steps": [
+        "yaw-90",
+        "pitch-6/yaw-10"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 186 edges >55deg, 50 corner verts)",
+      "bevel 0.009x3",
+      "smooth<60deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "Wood",
+      "source": "colour",
+      "colour": [
+        0.1529,
+        0.0704,
+        0.0595
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "Green",
+      "source": "colour",
+      "colour": [
+        0.0874,
+        0.1523,
+        0.0599
+      ],
+      "orphanShaderNodesIgnored": 1
+    }
+  ],
+  "attachment": {
+    "type": "BODY_SIDE",
+    "position": [
+      -0.405,
+      0.0571,
+      0.165
+    ],
+    "normal": [
+      -1.0,
+      0.0,
+      0.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

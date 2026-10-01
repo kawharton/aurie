@@ -1,0 +1,922 @@
+{
+  "schema": "aurie.charm.taxonomy/1",
+  "_readme": [
+    "HAND-AUTHORED editorial product metadata. The charm processor NEVER",
+    "writes this file — charms.json is processing output (provenance,",
+    "attachment, thumbnails); THIS file is product truth (what a charm",
+    "means, where it can be worn, how it can be earned).",
+    "generate_charm_catalog.py merges the two into the runtime catalog",
+    "(CharmCatalog.generated.swift). Edit here, then re-run the generator.",
+    "Three concepts stay independent and multi-valued: placements (where",
+    "worn), categories (what it represents), acquisitionSources (how it",
+    "can be earned). Birth triggers are a SEPARATE table: a trigger maps",
+    "recognition labels to ONE charm — categories never unlock anything.",
+    "The taxonomy may reference charms before their assets exist and may",
+    "keep working after a library asset is removed; it is deliberately",
+    "not limited to current AurieCharmLibrary contents."
+  ],
+  "categories": [
+    {
+      "id": "animals",
+      "displayName": "Animals"
+    },
+    {
+      "id": "pets",
+      "displayName": "Pets"
+    },
+    {
+      "id": "wildlife",
+      "displayName": "Wildlife"
+    },
+    {
+      "id": "ocean",
+      "displayName": "Ocean"
+    },
+    {
+      "id": "insects",
+      "displayName": "Bugs"
+    },
+    {
+      "id": "food",
+      "displayName": "Food"
+    },
+    {
+      "id": "fruit_vegetables",
+      "displayName": "Fruit & Veg"
+    },
+    {
+      "id": "desserts",
+      "displayName": "Sweets"
+    },
+    {
+      "id": "drinks",
+      "displayName": "Drinks"
+    },
+    {
+      "id": "health_medical",
+      "displayName": "Health"
+    },
+    {
+      "id": "sports",
+      "displayName": "Sports"
+    },
+    {
+      "id": "fitness",
+      "displayName": "Fitness"
+    },
+    {
+      "id": "dance",
+      "displayName": "Dance"
+    },
+    {
+      "id": "art",
+      "displayName": "Art"
+    },
+    {
+      "id": "music",
+      "displayName": "Music"
+    },
+    {
+      "id": "science",
+      "displayName": "Science"
+    },
+    {
+      "id": "chemistry",
+      "displayName": "Chemistry"
+    },
+    {
+      "id": "biology",
+      "displayName": "Biology"
+    },
+    {
+      "id": "medicine",
+      "displayName": "Medicine"
+    },
+    {
+      "id": "space",
+      "displayName": "Space & Astronomy"
+    },
+    {
+      "id": "technology",
+      "displayName": "Technology"
+    },
+    {
+      "id": "engineering",
+      "displayName": "Engineering"
+    },
+    {
+      "id": "math",
+      "displayName": "Math"
+    },
+    {
+      "id": "books_reading",
+      "displayName": "Books"
+    },
+    {
+      "id": "school_learning",
+      "displayName": "School"
+    },
+    {
+      "id": "nature",
+      "displayName": "Nature"
+    },
+    {
+      "id": "flowers_plants",
+      "displayName": "Plants"
+    },
+    {
+      "id": "weather",
+      "displayName": "Weather"
+    },
+    {
+      "id": "travel",
+      "displayName": "Travel"
+    },
+    {
+      "id": "transportation",
+      "displayName": "Transportation"
+    },
+    {
+      "id": "fantasy_magic",
+      "displayName": "Magic"
+    },
+    {
+      "id": "games_toys",
+      "displayName": "Toys & Games"
+    },
+    {
+      "id": "home_objects",
+      "displayName": "Everyday"
+    },
+    {
+      "id": "clothing_fashion",
+      "displayName": "Fashion"
+    },
+    {
+      "id": "careers",
+      "displayName": "Careers"
+    },
+    {
+      "id": "holidays",
+      "displayName": "Holidays"
+    },
+    {
+      "id": "celebrations",
+      "displayName": "Celebrations"
+    },
+    {
+      "id": "love_friendship",
+      "displayName": "Friendship"
+    },
+    {
+      "id": "night_dreams",
+      "displayName": "Dreams"
+    },
+    {
+      "id": "sun_moon_stars",
+      "displayName": "Stars & Sky"
+    }
+  ],
+  "placements": [
+    {
+      "id": "belly",
+      "displayName": "Belly"
+    },
+    {
+      "id": "back",
+      "displayName": "Back"
+    },
+    {
+      "id": "head",
+      "displayName": "Head"
+    },
+    {
+      "id": "bodySide",
+      "displayName": "Side"
+    },
+    {
+      "id": "shoulder",
+      "displayName": "Shoulder"
+    },
+    {
+      "id": "neck",
+      "displayName": "Neck"
+    },
+    {
+      "id": "forehead",
+      "displayName": "Forehead"
+    },
+    {
+      "id": "cheek",
+      "displayName": "Cheek"
+    },
+    {
+      "id": "arm",
+      "displayName": "Arm"
+    },
+    {
+      "id": "wrist",
+      "displayName": "Wrist"
+    },
+    {
+      "id": "leg",
+      "displayName": "Leg"
+    },
+    {
+      "id": "ankle",
+      "displayName": "Ankle"
+    },
+    {
+      "id": "floating",
+      "displayName": "Floating"
+    },
+    {
+      "id": "aura",
+      "displayName": "Aura"
+    },
+    {
+      "id": "tail",
+      "displayName": "Tail"
+    },
+    {
+      "id": "hanging",
+      "displayName": "Hanging"
+    }
+  ],
+  "acquisitionSources": [
+    {
+      "id": "birthPhoto",
+      "displayName": "Birth Photo"
+    },
+    {
+      "id": "taskReward",
+      "displayName": "Task Reward"
+    },
+    {
+      "id": "achievement",
+      "displayName": "Achievement"
+    },
+    {
+      "id": "event",
+      "displayName": "Event"
+    },
+    {
+      "id": "seasonal",
+      "displayName": "Seasonal"
+    },
+    {
+      "id": "starter",
+      "displayName": "Starter"
+    },
+    {
+      "id": "discovery",
+      "displayName": "Discovery"
+    },
+    {
+      "id": "environmentDiscovery",
+      "displayName": "Found in the World"
+    },
+    {
+      "id": "foodInteraction",
+      "displayName": "Food & Eating"
+    },
+    {
+      "id": "futureShop",
+      "displayName": "Shop"
+    }
+  ],
+  "birthTriggers": [
+    {
+      "_note": "Labels are CANONICAL hero labels from Recognition.swift's mapping table, audited 2026-09-18: Vision's 'apple'/'Granny Smith' both canonicalize to hero label 'apple', and no other apple-ish value can reach RecognizedObject.label. Never list raw Vision text here. One trigger unlocks ONE charm; broad labels must never fan out to a whole category.",
+      "id": "birth_apple",
+      "acceptedRecognitionLabels": [
+        "apple"
+      ],
+      "unlockCharmID": "charm_food_apple_01"
+    },
+    {
+      "id": "birth_teddy",
+      "_note": "Stable canonical hero label from Recognition.swift — the only kind allowed as a trigger (D2 rule). One trigger, ONE charm.",
+      "acceptedRecognitionLabels": [
+        "teddy"
+      ],
+      "unlockCharmID": "charm_toy_teddy_01"
+    },
+    {
+      "id": "birth_mug",
+      "_note": "Stable canonical hero label from Recognition.swift — the only kind allowed as a trigger (D2 rule). One trigger, ONE charm.",
+      "acceptedRecognitionLabels": [
+        "mug"
+      ],
+      "unlockCharmID": "charm_object_mug_01"
+    },
+    {
+      "id": "birth_cup",
+      "_note": "Stable canonical hero label from Recognition.swift — the only kind allowed as a trigger (D2 rule). One trigger, ONE charm. ('teacup' canonicalizes to hero 'cup'.)",
+      "acceptedRecognitionLabels": [
+        "cup"
+      ],
+      "unlockCharmID": "charm_object_teacup_01"
+    },
+    {
+      "id": "birth_strawberry",
+      "_note": "Stable canonical hero label from Recognition.swift — the only kind allowed as a trigger (D2 rule). One trigger, ONE charm.",
+      "acceptedRecognitionLabels": [
+        "strawberry"
+      ],
+      "unlockCharmID": "charm_food_strawberry_01"
+    },
+    {
+      "id": "birth_lemon",
+      "_note": "Stable canonical hero label from Recognition.swift — the only kind allowed as a trigger (D2 rule). One trigger, ONE charm.",
+      "acceptedRecognitionLabels": [
+        "lemon"
+      ],
+      "unlockCharmID": "charm_food_lemon_01"
+    },
+    {
+      "id": "birth_carrot",
+      "_note": "Stable canonical hero label from Recognition.swift — the only kind allowed as a trigger (D2 rule). One trigger, ONE charm.",
+      "acceptedRecognitionLabels": [
+        "carrot"
+      ],
+      "unlockCharmID": "charm_food_carrot_01"
+    },
+    {
+      "id": "birth_cake",
+      "_note": "Stable canonical hero label from Recognition.swift — the only kind allowed as a trigger (D2 rule). One trigger, ONE charm.",
+      "acceptedRecognitionLabels": [
+        "cake"
+      ],
+      "unlockCharmID": "charm_food_cake_01"
+    },
+    {
+      "id": "birth_cookie",
+      "_note": "Stable canonical hero label from Recognition.swift — the only kind allowed as a trigger (D2 rule). One trigger, ONE charm.",
+      "acceptedRecognitionLabels": [
+        "cookie"
+      ],
+      "unlockCharmID": "charm_food_cookie_01"
+    },
+    {
+      "id": "birth_balloon",
+      "_note": "Stable canonical hero label from Recognition.swift — the only kind allowed as a trigger (D2 rule). One trigger, ONE charm.",
+      "acceptedRecognitionLabels": [
+        "balloon"
+      ],
+      "unlockCharmID": "charm_toy_balloon_01"
+    },
+    {
+      "id": "birth_beach_ball",
+      "_note": "Stable canonical hero label from Recognition.swift — the only kind allowed as a trigger (D2 rule). One trigger, ONE charm. PHRASE hero on purpose — generic 'ball' is NOT promoted, so tennis/soccer balls stay ineligible.",
+      "acceptedRecognitionLabels": [
+        "beach ball"
+      ],
+      "unlockCharmID": "charm_toy_beach_ball_01"
+    },
+    {
+      "id": "birth_backpack",
+      "acceptedRecognitionLabels": [
+        "backpack"
+      ],
+      "unlockCharmID": "charm_object_backpack_01"
+    },
+    {
+      "id": "birth_tomato",
+      "acceptedRecognitionLabels": [
+        "tomato"
+      ],
+      "unlockCharmID": "charm_food_tomato_01"
+    }
+  ],
+  "charms": {
+    "charm_object_backpack_01": {
+      "displayName": "Backpack",
+      "categories": [
+        "travel",
+        "school_learning"
+      ],
+      "placements": [
+        "back"
+      ],
+      "acquisitionSources": [
+        "birthPhoto"
+      ],
+      "launch": true,
+      "birthTriggerIDs": [
+        "birth_backpack"
+      ]
+    },
+    "charm_food_apple_01": {
+      "displayName": "Apple",
+      "categories": [
+        "food",
+        "fruit_vegetables",
+        "nature"
+      ],
+      "placements": [
+        "belly"
+      ],
+      "acquisitionSources": [
+        "birthPhoto"
+      ],
+      "birthTriggerIDs": [
+        "birth_apple"
+      ],
+      "launch": true
+    },
+    "charm_nature_pumpkin_01": {
+      "displayName": "Pumpkin",
+      "categories": [
+        "food",
+        "fruit_vegetables",
+        "nature",
+        "holidays"
+      ],
+      "placements": [
+        "belly"
+      ],
+      "acquisitionSources": [],
+      "launch": false
+    },
+    "charm_food_pizza_01": {
+      "displayName": "Pizza",
+      "categories": [
+        "food"
+      ],
+      "placements": [
+        "belly"
+      ],
+      "acquisitionSources": [],
+      "launch": false
+    },
+    "charm_magic_crystal_02": {
+      "displayName": "Crystal",
+      "categories": [
+        "fantasy_magic",
+        "nature"
+      ],
+      "placements": [
+        "aura"
+      ],
+      "acquisitionSources": [
+        "taskReward"
+      ],
+      "launch": true
+    },
+    "charm_magic_star_01": {
+      "displayName": "Star",
+      "categories": [
+        "fantasy_magic",
+        "sun_moon_stars",
+        "night_dreams"
+      ],
+      "placements": [
+        "aura"
+      ],
+      "acquisitionSources": [
+        "taskReward"
+      ],
+      "launch": true
+    },
+    "charm_nature_flower_03": {
+      "displayName": "Pink Blossom",
+      "categories": [
+        "nature",
+        "flowers_plants"
+      ],
+      "placements": [
+        "aura"
+      ],
+      "acquisitionSources": [
+        "taskReward"
+      ],
+      "launch": true
+    },
+    "charm_food_tomato_01": {
+      "displayName": "Tomato",
+      "categories": [
+        "food",
+        "fruit_vegetables",
+        "nature"
+      ],
+      "placements": [
+        "aura"
+      ],
+      "acquisitionSources": [
+        "birthPhoto"
+      ],
+      "launch": true,
+      "birthTriggerIDs": [
+        "birth_tomato"
+      ]
+    },
+    "charm_magic_star_coin_01": {
+      "displayName": "Star Coin",
+      "categories": [
+        "fantasy_magic",
+        "games_toys"
+      ],
+      "placements": [
+        "floating"
+      ],
+      "acquisitionSources": [
+        "taskReward"
+      ],
+      "launch": false
+    },
+    "charm_toy_teddy_01": {
+      "displayName": "Teddy Bear",
+      "categories": [
+        "games_toys",
+        "love_friendship"
+      ],
+      "placements": [
+        "belly"
+      ],
+      "acquisitionSources": [
+        "birthPhoto"
+      ],
+      "launch": true,
+      "birthTriggerIDs": [
+        "birth_teddy"
+      ]
+    },
+    "charm_object_mug_01": {
+      "displayName": "Mug",
+      "categories": [
+        "home_objects",
+        "drinks"
+      ],
+      "placements": [
+        "belly"
+      ],
+      "acquisitionSources": [
+        "birthPhoto"
+      ],
+      "launch": true,
+      "birthTriggerIDs": [
+        "birth_mug"
+      ]
+    },
+    "charm_object_teacup_01": {
+      "displayName": "Teacup",
+      "categories": [
+        "home_objects",
+        "drinks"
+      ],
+      "placements": [
+        "belly"
+      ],
+      "acquisitionSources": [
+        "birthPhoto"
+      ],
+      "launch": true,
+      "birthTriggerIDs": [
+        "birth_cup"
+      ]
+    },
+    "charm_toy_beach_ball_01": {
+      "displayName": "Beach Ball",
+      "categories": [
+        "games_toys",
+        "sports"
+      ],
+      "placements": [
+        "belly"
+      ],
+      "acquisitionSources": [
+        "birthPhoto"
+      ],
+      "launch": true,
+      "birthTriggerIDs": [
+        "birth_beach_ball"
+      ]
+    },
+    "charm_toy_balloon_01": {
+      "displayName": "Balloon",
+      "categories": [
+        "games_toys",
+        "celebrations"
+      ],
+      "placements": [
+        "belly"
+      ],
+      "acquisitionSources": [
+        "birthPhoto"
+      ],
+      "launch": true,
+      "birthTriggerIDs": [
+        "birth_balloon"
+      ]
+    },
+    "charm_food_strawberry_01": {
+      "displayName": "Strawberry",
+      "categories": [
+        "food",
+        "fruit_vegetables",
+        "nature"
+      ],
+      "placements": [
+        "belly"
+      ],
+      "acquisitionSources": [
+        "birthPhoto"
+      ],
+      "launch": true,
+      "birthTriggerIDs": [
+        "birth_strawberry"
+      ]
+    },
+    "charm_food_orange_01": {
+      "displayName": "Orange",
+      "categories": [
+        "food",
+        "fruit_vegetables",
+        "nature"
+      ],
+      "placements": [
+        "belly"
+      ],
+      "acquisitionSources": [],
+      "launch": false
+    },
+    "charm_food_lemon_01": {
+      "displayName": "Lemon",
+      "categories": [
+        "food",
+        "fruit_vegetables",
+        "nature"
+      ],
+      "placements": [
+        "belly"
+      ],
+      "acquisitionSources": [
+        "birthPhoto"
+      ],
+      "launch": true,
+      "birthTriggerIDs": [
+        "birth_lemon"
+      ]
+    },
+    "charm_food_carrot_01": {
+      "displayName": "Carrot",
+      "categories": [
+        "food",
+        "fruit_vegetables",
+        "nature"
+      ],
+      "placements": [
+        "belly"
+      ],
+      "acquisitionSources": [
+        "birthPhoto"
+      ],
+      "launch": true,
+      "birthTriggerIDs": [
+        "birth_carrot"
+      ]
+    },
+    "charm_food_cake_01": {
+      "displayName": "Cake",
+      "categories": [
+        "food",
+        "desserts",
+        "celebrations"
+      ],
+      "placements": [
+        "belly"
+      ],
+      "acquisitionSources": [
+        "birthPhoto"
+      ],
+      "launch": true,
+      "birthTriggerIDs": [
+        "birth_cake"
+      ]
+    },
+    "charm_food_cookie_01": {
+      "displayName": "Cookie",
+      "categories": [
+        "food",
+        "desserts"
+      ],
+      "placements": [
+        "belly"
+      ],
+      "acquisitionSources": [
+        "birthPhoto"
+      ],
+      "launch": true,
+      "birthTriggerIDs": [
+        "birth_cookie"
+      ]
+    },
+    "charm_nature_snowflake_01": {
+      "displayName": "Snowflake",
+      "categories": [
+        "nature",
+        "weather"
+      ],
+      "placements": [
+        "aura"
+      ],
+      "acquisitionSources": [
+        "taskReward"
+      ],
+      "launch": true
+    },
+    "charm_object_book_01": {
+      "displayName": "Open Book",
+      "categories": [
+        "books_reading",
+        "school_learning"
+      ],
+      "placements": [
+        "floating"
+      ],
+      "acquisitionSources": [
+        "taskReward"
+      ],
+      "launch": false
+    },
+    "charm_object_key_01": {
+      "displayName": "Key",
+      "categories": [
+        "home_objects",
+        "fantasy_magic"
+      ],
+      "placements": [
+        "floating"
+      ],
+      "acquisitionSources": [
+        "taskReward"
+      ],
+      "launch": false
+    },
+    "charm_toy_basketball_01": {
+      "displayName": "Basketball",
+      "categories": [
+        "games_toys",
+        "sports"
+      ],
+      "placements": [
+        "belly"
+      ],
+      "acquisitionSources": [
+        "taskReward"
+      ],
+      "launch": false
+    },
+    "charm_nature_rain_cloud_01": {
+      "displayName": "Rain Cloud",
+      "categories": [
+        "nature",
+        "weather"
+      ],
+      "placements": [
+        "belly"
+      ],
+      "acquisitionSources": [
+        "taskReward"
+      ],
+      "launch": false
+    },
+    "charm_science_flask_01": {
+      "displayName": "Flask",
+      "categories": [
+        "science",
+        "chemistry"
+      ],
+      "placements": [
+        "belly"
+      ],
+      "acquisitionSources": [
+        "taskReward"
+      ],
+      "launch": false
+    },
+    "charm_music_trumpet_01": {
+      "displayName": "Trumpet",
+      "categories": [
+        "music"
+      ],
+      "placements": [
+        "belly"
+      ],
+      "acquisitionSources": [
+        "taskReward"
+      ],
+      "launch": false
+    },
+    "charm_object_chair_01": {
+      "displayName": "Chair",
+      "categories": [
+        "home_objects"
+      ],
+      "placements": [
+        "belly"
+      ],
+      "acquisitionSources": [
+        "taskReward"
+      ],
+      "launch": false
+    },
+    "charm_nature_tree_02": {
+      "displayName": "Tree",
+      "categories": [
+        "nature",
+        "flowers_plants"
+      ],
+      "placements": [
+        "belly"
+      ],
+      "acquisitionSources": [
+        "taskReward"
+      ],
+      "launch": true
+    },
+    "charm_badge_spark_01": {
+      "displayName": "Spark Badge",
+      "categories": [
+        "fantasy_magic",
+        "sun_moon_stars"
+      ],
+      "placements": [
+        "belly"
+      ],
+      "acquisitionSources": [
+        "taskReward"
+      ],
+      "launch": false
+    },
+    "charm_badge_wonderbook_01": {
+      "displayName": "Wonderbook Badge",
+      "categories": [
+        "books_reading",
+        "night_dreams"
+      ],
+      "placements": [
+        "belly"
+      ],
+      "acquisitionSources": [
+        "taskReward"
+      ],
+      "launch": false
+    },
+    "charm_badge_refresh_01": {
+      "displayName": "Refresh Badge",
+      "categories": [
+        "clothing_fashion"
+      ],
+      "placements": [
+        "belly"
+      ],
+      "acquisitionSources": [
+        "taskReward"
+      ],
+      "launch": true
+    },
+    "charm_badge_team_01": {
+      "displayName": "Team Badge",
+      "categories": [
+        "love_friendship",
+        "games_toys"
+      ],
+      "placements": [
+        "belly"
+      ],
+      "acquisitionSources": [
+        "taskReward"
+      ],
+      "launch": true
+    },
+    "charm_nature_rainbow_cloud_01": {
+      "displayName": "Rainbow",
+      "categories": [
+        "nature",
+        "weather"
+      ],
+      "placements": [
+        "belly"
+      ],
+      "acquisitionSources": [
+        "taskReward"
+      ],
+      "launch": true
+    },
+    "charm_friendship_hearts_01": {
+      "displayName": "Hearts",
+      "categories": [
+        "love_friendship"
+      ],
+      "placements": [
+        "belly"
+      ],
+      "acquisitionSources": [
+        "taskReward"
+      ],
+      "launch": true
+    }
+  }
+}

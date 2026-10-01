@@ -1,0 +1,115 @@
+{
+  "id": "charm_animal_clownfish_01",
+  "displayName": "Clownfish",
+  "category": "animals",
+  "sourceFilename": "Clownfish.blend",
+  "sourceSHA256": "8aa829c8a3538b469edab5d5a68391aadc30258865075e4f15c0ff174a96ddce",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "creature",
+  "seconds": 1.0,
+  "sourceComplete": false,
+  "texturesRelinked": [],
+  "colourComplete": true,
+  "missingTextures": [
+    {
+      "name": "Texture.png",
+      "path": "//\u00a0/Blender/DavidThorn/Library/Large/Texture.png"
+    }
+  ],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 2,
+    "kinds": {
+      "MESH": 1,
+      "ARMATURE": 1
+    },
+    "polys": 770,
+    "droppedObjects": {
+      "ARMATURE": 1,
+      "keptHiddenMeshes": true
+    },
+    "contextFixes": [
+      "objectmode:Fish_Armature"
+    ]
+  },
+  "geometry": {
+    "polysAfter": 3581,
+    "scaleApplied": 0.18961,
+    "extentsNormalized": [
+      1.0,
+      0.833,
+      0.5749
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": false,
+      "steps": [
+        "yaw-90",
+        "pitch-5/yaw0"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 238 edges >55deg, 43 corner verts)",
+      "bevel 0.012x3",
+      "smooth<62deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "Clownfish_Dark",
+      "source": "colour",
+      "colour": [
+        0.0407,
+        0.0407,
+        0.0407
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "Clownfish_Main",
+      "source": "colour",
+      "colour": [
+        0.2456,
+        0.067,
+        0.0249
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "Clownfish_Light",
+      "source": "colour",
+      "colour": [
+        0.2756,
+        0.2756,
+        0.2756
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "Eyes",
+      "source": "colour",
+      "colour": [
+        0.01,
+        0.01,
+        0.01
+      ],
+      "orphanShaderNodesIgnored": 2
+    }
+  ],
+  "attachment": {
+    "type": "BODY_SIDE",
+    "position": [
+      -0.4959,
+      0.0063,
+      -0.0306
+    ],
+    "normal": [
+      -1.0,
+      0.0,
+      0.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

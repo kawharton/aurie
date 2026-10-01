@@ -1,0 +1,135 @@
+{
+  "id": "charm_animal_anglerfish_01",
+  "displayName": "Anglerfish",
+  "category": "animals",
+  "sourceFilename": "Anglerfish.blend",
+  "sourceSHA256": "fd77ca2c90da095609fc8be6063d9087ccd625ab592e7bbabfef489ce824dcaf",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "creature",
+  "seconds": 1.0,
+  "sourceComplete": false,
+  "texturesRelinked": [],
+  "colourComplete": true,
+  "missingTextures": [
+    {
+      "name": "Texture.png",
+      "path": "//\u00a0/Blender/DavidThorn/Library/Large/Texture.png"
+    }
+  ],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 2,
+    "kinds": {
+      "ARMATURE": 1,
+      "MESH": 1
+    },
+    "polys": 985,
+    "droppedObjects": {
+      "ARMATURE": 1,
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": [
+      "objectmode:Fish_Armature"
+    ]
+  },
+  "geometry": {
+    "polysAfter": 6740,
+    "scaleApplied": 0.19279,
+    "extentsNormalized": [
+      1.0,
+      0.6801,
+      0.647
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": false,
+      "steps": [
+        "yaw-90",
+        "pitch-5/yaw-22"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 595 edges >55deg, 225 corner verts)",
+      "bevel 0.012x3",
+      "smooth<62deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "Anglerfish_Main",
+      "source": "colour",
+      "colour": [
+        0.1013,
+        0.0279,
+        0.0165
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "Anglerfish_Teeth",
+      "source": "colour",
+      "colour": [
+        0.3116,
+        0.2523,
+        0.2074
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "Anglerfish_Fins",
+      "source": "colour",
+      "colour": [
+        0.5173,
+        0.5071,
+        0.3659
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "Anglerfish_Light",
+      "source": "colour",
+      "colour": [
+        0.2004,
+        0.0516,
+        0.0294
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "Light",
+      "source": "colour",
+      "colour": [
+        0.3745,
+        0.9235,
+        1.0
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "Eyes",
+      "source": "colour",
+      "colour": [
+        0.01,
+        0.01,
+        0.01
+      ],
+      "orphanShaderNodesIgnored": 2
+    }
+  ],
+  "attachment": {
+    "type": "BODY_SIDE",
+    "position": [
+      -0.5,
+      0.1478,
+      -0.1071
+    ],
+    "normal": [
+      -1.0,
+      0.0,
+      0.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

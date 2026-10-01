@@ -1,0 +1,90 @@
+{
+  "id": "charm_food_broccoli_01",
+  "displayName": "Broccoli",
+  "category": "food",
+  "sourceFilename": "Broccoli.blend",
+  "sourceSHA256": "e1745677ec6cc3dc8725bc6644f0071dae0db492b46c9d84afc83a43ff876352",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "botanical",
+  "seconds": 1.0,
+  "sourceComplete": false,
+  "texturesRelinked": [],
+  "colourComplete": true,
+  "missingTextures": [
+    {
+      "name": "Texture.png",
+      "path": "//\u00a0/Blender/DavidThorn/Library/Large/Texture.png"
+    }
+  ],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 1,
+    "kinds": {
+      "MESH": 1
+    },
+    "polys": 205,
+    "droppedObjects": {
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": []
+  },
+  "geometry": {
+    "polysAfter": 1336,
+    "scaleApplied": 1.09685,
+    "extentsNormalized": [
+      0.7969,
+      0.6936,
+      1.0
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": false,
+      "steps": [
+        "pitch-6/yaw-10"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 75 edges >55deg, 39 corner verts)",
+      "bevel 0.009x3",
+      "smooth<60deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "LightGreen",
+      "source": "colour",
+      "colour": [
+        0.1356,
+        0.3564,
+        0.0685
+      ],
+      "orphanShaderNodesIgnored": 2
+    },
+    {
+      "name": "DarkGreen",
+      "source": "colour",
+      "colour": [
+        0.0306,
+        0.0607,
+        0.0277
+      ],
+      "orphanShaderNodesIgnored": 2
+    }
+  ],
+  "attachment": {
+    "type": "BODY_FRONT",
+    "position": [
+      -0.0039,
+      0.3161,
+      0.1517
+    ],
+    "normal": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

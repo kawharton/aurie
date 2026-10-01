@@ -1,0 +1,155 @@
+{
+  "id": "charm_animal_deer_01",
+  "displayName": "Deer",
+  "category": "animals",
+  "sourceFilename": "Deer.blend",
+  "sourceSHA256": "e0561b31230bb10434fdaf1755a140dcffce80f1d1e36d5d674f922976d801a4",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "creature",
+  "seconds": 1.0,
+  "sourceComplete": false,
+  "texturesRelinked": [],
+  "colourComplete": true,
+  "missingTextures": [
+    {
+      "name": "Texture.png",
+      "path": "//\u00a0/Blender/DavidThorn/Library/Large/Texture.png"
+    }
+  ],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 2,
+    "kinds": {
+      "MESH": 1,
+      "ARMATURE": 1
+    },
+    "polys": 1090,
+    "droppedObjects": {
+      "ARMATURE": 1,
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": [
+      "objectmode:AnimalArmature"
+    ]
+  },
+  "geometry": {
+    "polysAfter": 7420,
+    "scaleApplied": 0.22947,
+    "extentsNormalized": [
+      0.9945,
+      0.4738,
+      1.0
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": false,
+      "steps": [
+        "yaw-90",
+        "pitch-5/yaw-22"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 326 edges >55deg, 144 corner verts)",
+      "bevel 0.012x3",
+      "smooth<62deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "Main",
+      "source": "colour",
+      "colour": [
+        0.2961,
+        0.1248,
+        0.0578
+      ],
+      "orphanShaderNodesIgnored": 2
+    },
+    {
+      "name": "Hooves",
+      "source": "colour",
+      "colour": [
+        0.0732,
+        0.0529,
+        0.0498
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "Muzzle",
+      "source": "colour",
+      "colour": [
+        0.0732,
+        0.0529,
+        0.0498
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "Main_Light",
+      "source": "colour",
+      "colour": [
+        0.477,
+        0.3991,
+        0.2912
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "Main_Dark",
+      "source": "colour",
+      "colour": [
+        0.1734,
+        0.0748,
+        0.0357
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "Eye_Lighter",
+      "source": "colour",
+      "colour": [
+        0.4292,
+        0.1783,
+        0.0811
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "Eye_Black",
+      "source": "colour",
+      "colour": [
+        0.009,
+        0.009,
+        0.009
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "Eye_White",
+      "source": "colour",
+      "colour": [
+        0.723,
+        0.723,
+        0.723
+      ],
+      "orphanShaderNodesIgnored": 1
+    }
+  ],
+  "attachment": {
+    "type": "BODY_SIDE",
+    "position": [
+      -0.469,
+      0.0629,
+      -0.1727
+    ],
+    "normal": [
+      -1.0,
+      0.0,
+      0.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

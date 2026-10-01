@@ -1,0 +1,100 @@
+{
+  "id": "charm_animal_fish_03",
+  "displayName": "Fish",
+  "category": "animals",
+  "sourceFilename": "Fish3.blend",
+  "sourceSHA256": "7fd1bc7633dfa6ceb46cb2b4b3024746c1c44ab3f5e7fa5dd31dbceeb048b096",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "creature",
+  "seconds": 0.9,
+  "sourceComplete": true,
+  "texturesRelinked": [],
+  "colourComplete": true,
+  "missingTextures": [],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 2,
+    "kinds": {
+      "ARMATURE": 1,
+      "MESH": 1
+    },
+    "polys": 356,
+    "droppedObjects": {
+      "ARMATURE": 1,
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": [
+      "objectmode:Armature"
+    ]
+  },
+  "geometry": {
+    "polysAfter": 2545,
+    "scaleApplied": 0.13568,
+    "extentsNormalized": [
+      1.0,
+      0.4444,
+      0.5499
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": false,
+      "steps": [
+        "yaw-90",
+        "pitch-5/yaw-22"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 133 edges >55deg, 52 corner verts)",
+      "bevel 0.012x3",
+      "smooth<62deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "Body",
+      "source": "colour",
+      "colour": [
+        0.8,
+        0.1362,
+        0.0186
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "Stripes",
+      "source": "colour",
+      "colour": [
+        0.8,
+        0.758,
+        0.6398
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "Outline",
+      "source": "colour",
+      "colour": [
+        0.047,
+        0.047,
+        0.047
+      ],
+      "orphanShaderNodesIgnored": 1
+    }
+  ],
+  "attachment": {
+    "type": "BODY_SIDE",
+    "position": [
+      -0.4529,
+      0.1697,
+      -0.095
+    ],
+    "normal": [
+      -1.0,
+      0.0,
+      0.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

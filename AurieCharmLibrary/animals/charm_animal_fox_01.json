@@ -1,0 +1,124 @@
+{
+  "id": "charm_animal_fox_01",
+  "displayName": "Fox",
+  "category": "animals",
+  "sourceFilename": "Fox.blend",
+  "sourceSHA256": "14bb38cd76fb6554a4ecbac9e972d54708f49c07f95c00f958143d48f64ca009",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "creature",
+  "seconds": 0.9,
+  "sourceComplete": false,
+  "texturesRelinked": [],
+  "colourComplete": true,
+  "missingTextures": [
+    {
+      "name": "Texture.png",
+      "path": "//../\u00a0/Blender/DavidThorn/Library/Large/Texture.png"
+    }
+  ],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 2,
+    "kinds": {
+      "ARMATURE": 1,
+      "MESH": 1
+    },
+    "polys": 952,
+    "droppedObjects": {
+      "ARMATURE": 1,
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": []
+  },
+  "relativeScale": 1.15,
+  "geometry": {
+    "polysAfter": 5545,
+    "scaleApplied": 0.21101,
+    "extentsNormalized": [
+      1.15,
+      0.522,
+      0.5794
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": false,
+      "steps": [
+        "yaw-90",
+        "pitch-5/yaw-22"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 204 edges >55deg, 61 corner verts)",
+      "bevel 0.012x3",
+      "smooth<62deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "Main",
+      "source": "colour",
+      "colour": [
+        0.4672,
+        0.1705,
+        0.0559
+      ],
+      "orphanShaderNodesIgnored": 2
+    },
+    {
+      "name": "Black",
+      "source": "colour",
+      "colour": [
+        0.0272,
+        0.0272,
+        0.0272
+      ],
+      "orphanShaderNodesIgnored": 2
+    },
+    {
+      "name": "Eyes",
+      "source": "colour",
+      "colour": [
+        0.0272,
+        0.0272,
+        0.0272
+      ],
+      "orphanShaderNodesIgnored": 2
+    },
+    {
+      "name": "Main_Light",
+      "source": "colour",
+      "colour": [
+        0.3644,
+        0.3757,
+        0.3315
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "Grey",
+      "source": "colour",
+      "colour": [
+        0.0985,
+        0.0985,
+        0.0985
+      ],
+      "orphanShaderNodesIgnored": 2
+    }
+  ],
+  "attachment": {
+    "type": "BODY_SIDE",
+    "position": [
+      -0.5325,
+      0.2025,
+      0.1359
+    ],
+    "normal": [
+      -1.0,
+      0.0,
+      0.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

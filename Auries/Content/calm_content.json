@@ -1,0 +1,49 @@
+{
+  "calmLines": {
+    "ember": [
+      "It's okay to burn slowly.",
+      "Even embers rest between glows.",
+      "No sparks needed right now."
+    ],
+    "glow": [
+      "A little light is enough.",
+      "We can shine quietly for a while.",
+      "Soft light still counts."
+    ],
+    "moss": [
+      "Small breaths still count.",
+      "The forest never hurries.",
+      "Roots grow in the quiet."
+    ],
+    "tide": [
+      "Let the busy thoughts drift by.",
+      "The tide always comes back. No rush.",
+      "We can float here a while."
+    ],
+    "dusk": [
+      "Quiet is allowed.",
+      "Even the stars take their time.",
+      "Evening keeps no schedule."
+    ],
+    "stone": [
+      "Nothing needs to move yet.",
+      "Stillness is a skill. I practice.",
+      "We can just sit. I'm very good at sitting.",
+      "Let's relax. No need to move mountains."
+
+    ],
+    "starlight": [
+      "The sky can wait with us.",
+      "Let's relax. No need to reach for the stars."
+    ]
+  },
+  "worryHold": [
+    "I'll hold this with you.",
+    "You don't have to carry it alone right now.",
+    "Thank you for sharing that with me."
+  ],
+  "worryRelease": [
+    "We can let this one go for now.",
+    "We can set this down for a while."
+  ]
+}

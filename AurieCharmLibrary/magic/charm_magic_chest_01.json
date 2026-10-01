@@ -1,0 +1,100 @@
+{
+  "id": "charm_magic_chest_01",
+  "displayName": "Treasure Chest",
+  "category": "magic",
+  "sourceFilename": "Chest_Closed.blend",
+  "sourceSHA256": "39bc029ab534f618f5cfe6200a99d090add2068d3a3719f16b1d379ecd50275b",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "mechanical",
+  "seconds": 1.4,
+  "sourceComplete": false,
+  "texturesRelinked": [],
+  "colourComplete": true,
+  "missingTextures": [
+    {
+      "name": "Texture.png",
+      "path": "//\u00a0/Blender/DavidThorn/Library/Large/Texture.png"
+    }
+  ],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 1,
+    "kinds": {
+      "MESH": 1
+    },
+    "polys": 859,
+    "droppedObjects": {
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": []
+  },
+  "geometry": {
+    "polysAfter": 8601,
+    "scaleApplied": 0.88673,
+    "extentsNormalized": [
+      1.0,
+      0.8968,
+      0.7515
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": false,
+      "steps": [
+        "pitch-5/yaw-16"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 1124 edges >55deg, 468 corner verts)",
+      "bevel 0.010x3",
+      "smooth<58deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "DarkMetal",
+      "source": "colour",
+      "colour": [
+        0.0631,
+        0.0517,
+        0.0946
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "Wood",
+      "source": "colour",
+      "colour": [
+        0.2019,
+        0.104,
+        0.0793
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "Metal",
+      "source": "colour",
+      "colour": [
+        0.077,
+        0.0683,
+        0.1149
+      ],
+      "orphanShaderNodesIgnored": 1
+    }
+  ],
+  "attachment": {
+    "type": "BODY_FRONT",
+    "position": [
+      -0.1066,
+      0.3901,
+      -0.0015
+    ],
+    "normal": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

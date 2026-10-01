@@ -1,0 +1,646 @@
+{
+  "families": [
+    {
+      "family": "ember",
+      "names": [
+        "Emberess",
+        "Cinder",
+        "Soleil",
+        "Ruby",
+        "Poppy",
+        "Saffron",
+        "Blaze",
+        "Marigold",
+        "Rusty",
+        "Flare",
+        "Amber",
+        "Fira",
+        "Vela",
+        "Rue"
+      ],
+      "nameSyllables": [
+        "em",
+        "ci",
+        "so",
+        "au",
+        "ra",
+        "lo",
+        "mi",
+        "na"
+      ],
+      "lineTemplates": [
+        "{name} fights fire with fire.",
+        "{name} likes to keep the spark alive.",
+        "{name} is happy to motivate by lighting a fire under you.",
+        "{name} likes to blaze trails.",
+        "{name} will set the world on fire.",
+        "If you play with {name}, you might get burnt.",
+        "Where there's smoke, there's {name}.",
+        "{name} doesn't burn bridges.",
+        "Careful - {name} adds fuel to the fire.",
+        "{name} likes to burn the midnight oil.",
+        "Small but fierce and all fired up, that's {name}.",
+        "{name} saved you the warm spot."
+      ],
+      "moods": [
+        "warm",
+        "fiery",
+        "bold",
+        "bright"
+      ],
+      "shake": [
+        "Is this a rollercoaster?!",
+        "Again! Again!",
+        "Whoa! You lit a fire under me."
+      ],
+      "pet": [
+        "Mmm. Warm hands. Approved.",
+        "I could bask in this all day.",
+        "You have excellent taste in Auries."
+      ],
+      "traits": [
+        "bold",
+        "warm",
+        "fiery",
+        "brave",
+        "dramatic",
+        "spirited",
+        "fierce",
+        "radiant"
+      ]
+    },
+    {
+      "family": "glow",
+      "names": [
+        "Goldie",
+        "Dawn",
+        "Ray",
+        "Lumi",
+        "Sunny",
+        "Buttercup",
+        "Halo",
+        "Beam",
+        "Clementine",
+        "Honey",
+        "Tansy",
+        "Sunbeam"
+      ],
+      "nameSyllables": [
+        "go",
+        "da",
+        "ra",
+        "lu",
+        "mi",
+        "ha",
+        "be",
+        "na"
+      ],
+      "lineTemplates": [
+        "{name} looks on the bright side.",
+        "{name} always follows the light.",
+        "{name} wants to be the bright spot in your day.",
+        "{name} found something wonderful. It was you."
+      ],
+      "moods": [
+        "sunny",
+        "cheerful",
+        "bright",
+        "warm",
+        "adventurous"
+      ],
+      "shake": [
+        "Wheee! Okay, that's plenty!",
+        "So fun! Also so dizzy!",
+        "Round and round and - whoa!",
+        "This is awesome!"
+      ],
+      "pet": [
+        "I love this!",
+        "I'm glowing. Well - more than usual.",
+        "Best day ever!",
+        "Happy happy happy."
+      ],
+      "traits": [
+        "cheerful",
+        "sunny",
+        "bright",
+        "bubbly",
+        "kind",
+        "joyful",
+        "warm",
+        "sparkly",
+        "adventurous"
+      ]
+    },
+    {
+      "family": "moss",
+      "names": [
+        "Fern",
+        "Moss",
+        "Clover",
+        "Ivy",
+        "Sage",
+        "Juniper",
+        "Bramble",
+        "Hazel",
+        "Willow",
+        "Sorrel",
+        "Reed",
+        "Basil",
+        "Laurel",
+        "Thistle"
+      ],
+      "nameSyllables": [
+        "fe",
+        "mo",
+        "cle",
+        "i",
+        "sa",
+        "re",
+        "na",
+        "vy"
+      ],
+      "lineTemplates": [
+        "{name} knows good things take thyme.",
+        "{name} will happily go out on a limb for you.",
+        "{name} always stays grounded.",
+        "{name} likes to take the scenic root.",
+        "{name} is rooting for you."
+      ],
+      "moods": [
+        "patient",
+        "unhurried",
+        "rooted",
+        "calm"
+      ],
+      "shake": [
+        "I was... trying to stay grounded.",
+        "Please put me down.",
+        "Everything's swaying like leaves...",
+        "Please. I like to stay rooted."
+      ],
+      "pet": [
+        "So calming.",
+        "This is great!",
+        "That's very soothing, thank you.",
+        "You're the best!"
+      ],
+      "traits": [
+        "calm",
+        "patient",
+        "gentle",
+        "rooted",
+        "steady",
+        "nurturing",
+        "quiet",
+        "stubborn"
+      ]
+    },
+    {
+      "family": "tide",
+      "names": [
+        "Marina",
+        "Brook",
+        "Cove",
+        "Bay",
+        "Mira",
+        "Delta",
+        "Rain",
+        "River",
+        "Pearl",
+        "Azure",
+        "Lake",
+        "Reef",
+        "Marlow",
+        "Ondine",
+        "Coral"
+      ],
+      "nameSyllables": [
+        "ma",
+        "bro",
+        "co",
+        "ba",
+        "mi",
+        "ri",
+        "na",
+        "lo"
+      ],
+      "lineTemplates": [
+        "{name} is only calm on the surface.",
+        "{name} goes with the flow.",
+        "Everything passes, says {name}. Even Mondays.",
+        "{name} knows the tide always turns.",
+        "{name} likes to make a splash.",
+        "{name} likes to ride the waves."
+      ],
+      "moods": [
+        "calm",
+        "deep",
+        "cool",
+        "unhurried"
+      ],
+      "shake": [
+        "The tide does not appreciate this.",
+        "I'm seasick.",
+        "Waves are fine. This is not.",
+        "Deeply unamused."
+      ],
+      "pet": [
+        "...Fine. That's acceptable.",
+        "Oh. That's rather nice.",
+        "I'll allow it.",
+        "Calming. Like a tide, obviously."
+      ],
+      "traits": [
+        "calm",
+        "deep",
+        "wise",
+        "cool",
+        "thoughtful",
+        "serene",
+        "curious",
+        "gentle"
+      ]
+    },
+    {
+      "family": "dusk",
+      "names": [
+        "Violet",
+        "Iris",
+        "Plum",
+        "Lila",
+        "Vesper",
+        "Nyx",
+        "Indigo",
+        "Mavis",
+        "Sable",
+        "Twila",
+        "Perry",
+        "Dusky",
+        "Onyx"
+      ],
+      "nameSyllables": [
+        "vi",
+        "ir",
+        "plu",
+        "li",
+        "ve",
+        "ny",
+        "mo",
+        "ra"
+      ],
+      "lineTemplates": [
+        "{name} dreams in colours.",
+        "{name} has some bright ideas.",
+        "{name} knows more than it lets on.",
+        "{name} lets the day settle.",
+        "{name} wants to call it a day.",
+        "{name} knows that not everything needs daylight."
+      ],
+      "moods": [
+        "dreamy",
+        "quiet",
+        "hushed",
+        "wistful"
+      ],
+      "shake": [
+        "The stars are spinning... stop.",
+        "I thought I was just dreaming.",
+        "Mysteriously... very dizzy.",
+        "Stop disturbing me. I need rest."
+      ],
+      "pet": [
+        "Mmm... dreamy.",
+        "That's lovely.",
+        "I could fall asleep like this.",
+        "This is perfect."
+      ],
+      "traits": [
+        "dreamy",
+        "quiet",
+        "mysterious",
+        "wistful",
+        "gentle",
+        "thoughtful",
+        "soft",
+        "watchful"
+      ]
+    },
+    {
+      "family": "stone",
+      "names": [
+        "Pebble",
+        "Flint",
+        "Ash",
+        "Clay",
+        "Slate",
+        "Dusty",
+        "Boulder",
+        "Rocky",
+        "Sandy",
+        "Cobble",
+        "Chip",
+        "Gravel",
+        "Marble",
+        "Norman",
+        "Doug",
+        "Barney"
+      ],
+      "nameSyllables": [
+        "pe",
+        "fli",
+        "cla",
+        "sla",
+        "du",
+        "ro",
+        "co",
+        "ble"
+      ],
+      "lineTemplates": [
+        "{name} leaves no stone unturned.",
+        "{name} is here. That's the update.",
+        "Nothing happened. {name} is thrilled.",
+        "{name} is steady as a rock.",
+        "{name} knows hard days don't last forever.",
+        "{name} is on solid ground.",
+        "{name} is on solid footing."
+              ],
+      "moods": [
+        "fine",
+        "unbothered",
+        "steady",
+        "chill"
+      ],
+      "shake": [
+        "That was totally unnecessary.",
+        "Noted. Very dizzy.",
+        "Wow. A whole event. I hated it.",
+        "Stop throwing stones.",
+        "Shaking won't move mountains."
+      ],
+      "pet": [
+        "Hey! I actually like this.",
+        "...Okay. That can continue.",
+        "I don't hate this. High praise.",
+        "Thanks, I guess."
+
+      ],
+      "traits": [
+        "steady",
+        "unbothered",
+        "dependable",
+        "chill",
+        "dry",
+        "loyal",
+        "grounded",
+        "patient"
+      ]
+    },
+    {
+      "family": "starlight",
+      "names": [
+        "Nova",
+        "Luna",
+        "Stella",
+        "Aster",
+        "Comet",
+        "Cosmo",
+        "Celeste",
+        "Star",
+        "Vega",
+        "Lyra",
+        "Orion",
+        "Astra",
+        "Nebula",
+        "Wish",
+        "Twinkle"
+      ],
+      "nameSyllables": [
+        "no",
+        "lu",
+        "ste",
+        "as",
+        "co",
+        "ve",
+        "ly",
+        "ra"
+      ],
+      "lineTemplates": [
+        "{name} is 4% likely and 100% here for you.",
+        "{name} fell a very long way for this conversation.",
+        "Make a wish. {name} has already read it.",
+        "{name} only reaches for the stars.",
+        "Statistically, you shouldn't have found {name}. Lucky you.",
+        "Not everything is written in the stars, but {name} is."
+      ],
+      "moods": [],
+      "shake": [
+        "You've knocked me out of orbit.",
+        "I've seen galaxies collide - this is worse.",
+        "I fell a long way; I didn't need the encore.",
+        "Careful, I'm mostly stardust and it's everywhere now."
+      ],
+      "pet": [
+        "Careful, I'm mostly stardust.",
+        "That tingles like a falling star.",
+        "Even light enjoys being noticed.",
+        "Mmm. Cosmic."
+      ],
+      "traits": [
+        "whimsical",
+        "wondrous",
+        "ancient",
+        "curious",
+        "dazzling",
+        "mysterious",
+        "gentle",
+        "cosmic"
+      ]
+    }
+  ],
+  "sharedPlay": {
+    "tickle": [
+      "That tickles! That TICKLES!",
+      "Hehehe. Okay, okay!",
+      "I can't breathe!"
+    ],
+    "pickup": [
+      "Wheee!",
+      "Up we go!",
+      "Put me down. Gently!",
+      "I'm flying! Sort of!",
+      "Okay, this is fine. This is fine."
+    ]
+  },
+  "categories": [
+    {
+      "category": "food",
+      "headCharms": [
+        0
+      ],
+      "bellyPatterns": [
+        0,
+        2
+      ],
+      "sideDetails": [],
+      "tailCharms": [],
+      "textures": []
+    },
+    {
+      "category": "plant",
+      "headCharms": [
+        0,
+        1
+      ],
+      "bellyPatterns": [],
+      "sideDetails": [],
+      "tailCharms": [
+        2
+      ],
+      "textures": [
+        2
+      ]
+    },
+    {
+      "category": "toy",
+      "headCharms": [
+        3,
+        2
+      ],
+      "bellyPatterns": [
+        0
+      ],
+      "sideDetails": [],
+      "tailCharms": [],
+      "textures": []
+    },
+    {
+      "category": "tech",
+      "headCharms": [
+        2
+      ],
+      "bellyPatterns": [
+        4
+      ],
+      "sideDetails": [],
+      "tailCharms": [],
+      "textures": [
+        0
+      ]
+    },
+    {
+      "category": "fabric",
+      "headCharms": [],
+      "bellyPatterns": [],
+      "sideDetails": [
+        1
+      ],
+      "tailCharms": [],
+      "textures": [
+        1
+      ]
+    },
+    {
+      "category": "tool",
+      "headCharms": [],
+      "bellyPatterns": [],
+      "sideDetails": [],
+      "tailCharms": [
+        0
+      ],
+      "textures": []
+    },
+    {
+      "category": "paper",
+      "headCharms": [],
+      "bellyPatterns": [
+        1
+      ],
+      "sideDetails": [],
+      "tailCharms": [],
+      "textures": []
+    },
+    {
+      "category": "container",
+      "headCharms": [],
+      "bellyPatterns": [],
+      "sideDetails": [
+        0
+      ],
+      "tailCharms": [],
+      "textures": []
+    },
+    {
+      "category": "metal",
+      "headCharms": [],
+      "bellyPatterns": [],
+      "sideDetails": [],
+      "tailCharms": [],
+      "textures": [
+        0
+      ]
+    },
+    {
+      "category": "unknown",
+      "headCharms": [],
+      "bellyPatterns": [],
+      "sideDetails": [],
+      "tailCharms": [],
+      "textures": []
+    }
+  ],
+  "heroes": [
+    {
+      "label": "banana",
+      "category": "food",
+      "bellyPatternId": 2,
+      "tailCharmId": 1
+    },
+    {
+      "label": "apple",
+      "category": "food",
+      "headCharmId": 0
+    },
+    {
+      "label": "flower",
+      "category": "plant",
+      "headCharmId": 1
+    },
+    {
+      "label": "cup",
+      "category": "container",
+      "sideDetailId": 0
+    },
+    {
+      "label": "mug",
+      "category": "container",
+      "sideDetailId": 0
+    },
+    {
+      "label": "book",
+      "category": "paper",
+      "bellyPatternId": 1
+    },
+    {
+      "label": "key",
+      "category": "tool",
+      "tailCharmId": 0
+    },
+    {
+      "label": "phone",
+      "category": "tech",
+      "textureId": 0,
+      "bellyPatternId": 4
+    },
+    {
+      "label": "backpack",
+      "category": "fabric",
+      "bellyPatternId": 3
+    },
+    {
+      "label": "teddy",
+      "category": "toy",
+      "headCharmId": 3
+    }
+  ]
+}

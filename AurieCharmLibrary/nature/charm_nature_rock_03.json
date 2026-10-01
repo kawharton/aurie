@@ -1,0 +1,84 @@
+{
+  "id": "charm_nature_rock_03",
+  "displayName": "Boulder",
+  "category": "nature",
+  "sourceFilename": "Rock_3.blend",
+  "sourceSHA256": "e7c6c66238c39c177f7960d983419841fc5a69796c8d8fb57592952bb2d3f758",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "mechanical",
+  "seconds": 1.2,
+  "sourceComplete": false,
+  "texturesRelinked": [
+    {
+      "image": "Rocks.png.001",
+      "wanted": "Rocks.png",
+      "resolved": "Rocks.png",
+      "match": "exact"
+    }
+  ],
+  "colourComplete": true,
+  "missingTextures": [
+    {
+      "name": "Texture.png",
+      "path": "//\u00a0/Blender/DavidThorn/Library/Large/Texture.png"
+    }
+  ],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 1,
+    "kinds": {
+      "MESH": 1
+    },
+    "polys": 352,
+    "droppedObjects": {
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": []
+  },
+  "geometry": {
+    "polysAfter": 3286,
+    "scaleApplied": 0.7598,
+    "extentsNormalized": [
+      0.7257,
+      0.6524,
+      1.0
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": false,
+      "steps": [
+        "yaw-90",
+        "pitch-5/yaw-16"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 181 edges >55deg, 74 corner verts)",
+      "bevel 0.010x3",
+      "smooth<58deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "Rock",
+      "source": "texture",
+      "colour": null,
+      "orphanShaderNodesIgnored": 0
+    }
+  ],
+  "attachment": {
+    "type": "BODY_SIDE",
+    "position": [
+      -0.3018,
+      -0.141,
+      0.0464
+    ],
+    "normal": [
+      -1.0,
+      0.0,
+      0.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

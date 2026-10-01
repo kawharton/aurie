@@ -1,0 +1,13 @@
+{
+  "images": [
+    {
+      "filename": "ember_env_sky.png",
+      "idiom": "universal",
+      "scale": "1x"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "id": "charm_animal_shark_01",
+  "displayName": "Shark",
+  "category": "animals",
+  "sourceFilename": "Shark.blend",
+  "sourceSHA256": "fb40d53563a537bd1540fff6e3603365d702888be47e21c15c2c16815e8474f5",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "creature",
+  "seconds": 0.8,
+  "sourceComplete": true,
+  "texturesRelinked": [],
+  "colourComplete": true,
+  "missingTextures": [],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 2,
+    "kinds": {
+      "ARMATURE": 1,
+      "MESH": 1
+    },
+    "polys": 328,
+    "droppedObjects": {
+      "ARMATURE": 1,
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": [
+      "objectmode:Armature"
+    ]
+  },
+  "geometry": {
+    "polysAfter": 4006,
+    "scaleApplied": 0.06819,
+    "extentsNormalized": [
+      1.0,
+      0.4498,
+      0.3697
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": false,
+      "steps": [
+        "yaw-90",
+        "pitch-5/yaw-22"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 275 edges >55deg, 121 corner verts)",
+      "bevel 0.012x3",
+      "smooth<62deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "Top",
+      "source": "colour",
+      "colour": [
+        0.1049,
+        0.214,
+        0.3343
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "Bottom",
+      "source": "colour",
+      "colour": [
+        0.686,
+        0.686,
+        0.686
+      ],
+      "orphanShaderNodesIgnored": 1
+    }
+  ],
+  "attachment": {
+    "type": "BODY_SIDE",
+    "position": [
+      -0.4801,
+      0.1791,
+      -0.1579
+    ],
+    "normal": [
+      -1.0,
+      0.0,
+      0.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

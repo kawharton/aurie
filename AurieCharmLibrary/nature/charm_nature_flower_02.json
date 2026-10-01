@@ -1,0 +1,71 @@
+{
+  "id": "charm_nature_flower_02",
+  "displayName": "Flower",
+  "category": "nature",
+  "sourceFilename": "Flower2.blend",
+  "sourceSHA256": "1057fb60cb87bec58f98d22cb54e366d1f813598060ed7f627444ac6baa84a8e",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "botanical",
+  "seconds": 0.8,
+  "sourceComplete": true,
+  "texturesRelinked": [],
+  "colourComplete": true,
+  "missingTextures": [],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 1,
+    "kinds": {
+      "MESH": 1
+    },
+    "polys": 154,
+    "droppedObjects": {
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": []
+  },
+  "geometry": {
+    "polysAfter": 1866,
+    "scaleApplied": 0.68463,
+    "extentsNormalized": [
+      0.231,
+      0.3033,
+      1.0
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": false,
+      "steps": [
+        "pitch-6/yaw-10"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 94 edges >55deg, 79 corner verts)",
+      "bevel 0.009x3",
+      "smooth<60deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "Texture",
+      "source": "texture",
+      "colour": null,
+      "orphanShaderNodesIgnored": 0
+    }
+  ],
+  "attachment": {
+    "type": "HEAD",
+    "position": [
+      -0.0108,
+      -0.0379,
+      -0.4999
+    ],
+    "normal": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

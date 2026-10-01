@@ -1,0 +1,92 @@
+{
+  "id": "charm_food_steak_01",
+  "displayName": "Steak",
+  "category": "food",
+  "sourceFilename": "Steak.blend",
+  "sourceSHA256": "02347495d8bea6b09faa2ed14093892bb4f72e6020d827d44f77cb3549924817",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "plush",
+  "seconds": 1.1,
+  "sourceComplete": false,
+  "texturesRelinked": [],
+  "colourComplete": true,
+  "missingTextures": [
+    {
+      "name": "Texture.png",
+      "path": "//\u00a0/Blender/DavidThorn/Library/Large/Texture.png"
+    }
+  ],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 1,
+    "kinds": {
+      "MESH": 1
+    },
+    "polys": 213,
+    "droppedObjects": {
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": []
+  },
+  "relativeScale": 1.0,
+  "geometry": {
+    "polysAfter": 5382,
+    "scaleApplied": 0.51956,
+    "extentsNormalized": [
+      0.6858,
+      0.2543,
+      1.0
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": true,
+      "steps": [
+        "stand-up",
+        "pitch-6/yaw0"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 256 edges >55deg, 158 corner verts)",
+      "bevel 0.038x4",
+      "smooth<65deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "DarkRed",
+      "source": "colour",
+      "colour": [
+        0.1329,
+        0.0279,
+        0.0188
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "White",
+      "source": "colour",
+      "colour": [
+        0.4575,
+        0.4575,
+        0.4575
+      ],
+      "orphanShaderNodesIgnored": 1
+    }
+  ],
+  "attachment": {
+    "type": "BODY_FRONT",
+    "position": [
+      -0.1185,
+      0.1029,
+      0.1751
+    ],
+    "normal": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

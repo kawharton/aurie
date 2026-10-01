@@ -1,0 +1,80 @@
+{
+  "id": "charm_food_banana_01",
+  "displayName": "Banana",
+  "category": "food",
+  "sourceFilename": "Banana.blend",
+  "sourceSHA256": "236cbe659f160e1ae32da9c07b67c8c965d4c21521a295415441ac258ed334ce",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "plush",
+  "seconds": 0.8,
+  "sourceComplete": false,
+  "texturesRelinked": [],
+  "colourComplete": true,
+  "missingTextures": [
+    {
+      "name": "Texture.png",
+      "path": "//\u00a0/Blender/DavidThorn/Library/Large/Texture.png"
+    }
+  ],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 1,
+    "kinds": {
+      "MESH": 1
+    },
+    "polys": 174,
+    "droppedObjects": {
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": []
+  },
+  "geometry": {
+    "polysAfter": 870,
+    "scaleApplied": 0.71563,
+    "extentsNormalized": [
+      0.8317,
+      0.2596,
+      1.0
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": false,
+      "steps": [
+        "pitch-6/yaw-12"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 13 edges >55deg, 3 corner verts)",
+      "bevel 0.020x3",
+      "smooth<65deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "Yellow",
+      "source": "colour",
+      "colour": [
+        0.5277,
+        0.3498,
+        0.0725
+      ],
+      "orphanShaderNodesIgnored": 2
+    }
+  ],
+  "attachment": {
+    "type": "BODY_FRONT",
+    "position": [
+      0.1499,
+      0.0885,
+      -0.1647
+    ],
+    "normal": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

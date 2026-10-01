@@ -1,0 +1,121 @@
+{
+  "id": "charm_object_book_01",
+  "displayName": "Open Book",
+  "category": "objects",
+  "sourceFilename": "Book3_Open.blend",
+  "sourceSHA256": "6dad9308c5dc9ed6c3e2c3bede2790bbfb59376fe49b08aeaa16ffec8369af20",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "panel",
+  "seconds": 1.2,
+  "sourceComplete": false,
+  "texturesRelinked": [],
+  "colourComplete": true,
+  "missingTextures": [
+    {
+      "name": "Texture.png",
+      "path": "//\u00a0/Blender/DavidThorn/Library/Large/Texture.png"
+    }
+  ],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 1,
+    "kinds": {
+      "MESH": 1
+    },
+    "polys": 260,
+    "droppedObjects": {
+      "keptHiddenMeshes": true
+    },
+    "contextFixes": []
+  },
+  "geometry": {
+    "polysAfter": 3756,
+    "scaleApplied": 1.01144,
+    "extentsNormalized": [
+      1.0,
+      0.8278,
+      0.6349
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": true,
+      "steps": [
+        "stand-up",
+        "pitch-46/yaw-15"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 306 edges >55deg, 120 corner verts)",
+      "bevel 0.008x3",
+      "smooth<55deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "DarkRed",
+      "source": "colour",
+      "colour": [
+        0.1149,
+        0.0322,
+        0.0267
+      ],
+      "orphanShaderNodesIgnored": 2
+    },
+    {
+      "name": "Beige",
+      "source": "colour",
+      "colour": [
+        0.3424,
+        0.2998,
+        0.2114
+      ],
+      "orphanShaderNodesIgnored": 2
+    },
+    {
+      "name": "Teal",
+      "source": "colour",
+      "colour": [
+        0.008,
+        0.0892,
+        0.1149
+      ],
+      "orphanShaderNodesIgnored": 2
+    },
+    {
+      "name": "DarkBrown",
+      "source": "colour",
+      "colour": [
+        0.0985,
+        0.0544,
+        0.0375
+      ],
+      "orphanShaderNodesIgnored": 2
+    },
+    {
+      "name": "Gold",
+      "source": "colour",
+      "colour": [
+        0.6038,
+        0.4703,
+        0.0984
+      ],
+      "orphanShaderNodesIgnored": 1
+    }
+  ],
+  "attachment": {
+    "type": "BODY_FRONT",
+    "position": [
+      -0.1456,
+      0.2709,
+      0.1588
+    ],
+    "normal": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

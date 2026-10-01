@@ -1,0 +1,111 @@
+{
+  "id": "charm_food_bacon_01",
+  "displayName": "Bacon",
+  "category": "food",
+  "sourceFilename": "Bacon_Uncooked.blend",
+  "sourceSHA256": "a594b3b71859e89f00550cb9e163b06a3774cfaad9a59a9fd2ec9256a2fc2d99",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "panel",
+  "seconds": 0.8,
+  "sourceComplete": false,
+  "texturesRelinked": [],
+  "colourComplete": true,
+  "missingTextures": [
+    {
+      "name": "Texture.png",
+      "path": "//\u00a0/Blender/DavidThorn/Library/Large/Texture.png"
+    }
+  ],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 1,
+    "kinds": {
+      "MESH": 1
+    },
+    "polys": 284,
+    "droppedObjects": {
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": []
+  },
+  "geometry": {
+    "polysAfter": 1744,
+    "scaleApplied": 0.86395,
+    "extentsNormalized": [
+      1.0,
+      0.0539,
+      0.2547
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": true,
+      "steps": [
+        "stand-up",
+        "pitch-8/yaw0"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 96 edges >55deg, 12 corner verts)",
+      "bevel 0.008x3",
+      "smooth<55deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "LightYellow",
+      "source": "colour",
+      "colour": [
+        0.4575,
+        0.3235,
+        0.1709
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "Meat1",
+      "source": "colour",
+      "colour": [
+        0.4179,
+        0.1878,
+        0.1714
+      ],
+      "orphanShaderNodesIgnored": 2
+    },
+    {
+      "name": "Meat2",
+      "source": "colour",
+      "colour": [
+        0.305,
+        0.0953,
+        0.0782
+      ],
+      "orphanShaderNodesIgnored": 2
+    },
+    {
+      "name": "Meat3",
+      "source": "colour",
+      "colour": [
+        0.5711,
+        0.1746,
+        0.1413
+      ],
+      "orphanShaderNodesIgnored": 2
+    }
+  ],
+  "attachment": {
+    "type": "BODY_FRONT",
+    "position": [
+      0.0148,
+      0.0259,
+      0.1202
+    ],
+    "normal": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

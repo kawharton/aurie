@@ -1,0 +1,91 @@
+{
+  "id": "charm_nature_cactus_flower_01",
+  "displayName": "Flowering Cactus",
+  "category": "nature",
+  "sourceFilename": "CactusFlowers_5.blend",
+  "sourceSHA256": "44b6d2d3e27ddc86ce6dfeb11eea7362dc9b8c2b2971a008bbcb266f5deff9ce",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "botanical",
+  "seconds": 0.9,
+  "sourceComplete": false,
+  "texturesRelinked": [],
+  "colourComplete": true,
+  "missingTextures": [
+    {
+      "name": "Texture.png",
+      "path": "//\u00a0/Blender/DavidThorn/Library/Large/Texture.png"
+    }
+  ],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 1,
+    "kinds": {
+      "MESH": 1
+    },
+    "polys": 400,
+    "droppedObjects": {
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": []
+  },
+  "relativeScale": 1.0,
+  "geometry": {
+    "polysAfter": 1144,
+    "scaleApplied": 1.07222,
+    "extentsNormalized": [
+      0.7773,
+      0.257,
+      1.0
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": false,
+      "steps": [
+        "yaw-90",
+        "pitch-6/yaw-10"
+      ]
+    },
+    "softening": [
+      "bevel 0.004x3",
+      "smooth<60deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "Green",
+      "source": "colour",
+      "colour": [
+        0.0874,
+        0.1523,
+        0.0599
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "Pink",
+      "source": "colour",
+      "colour": [
+        0.4672,
+        0.1131,
+        0.277
+      ],
+      "orphanShaderNodesIgnored": 1
+    }
+  ],
+  "attachment": {
+    "type": "BODY_SIDE",
+    "position": [
+      -0.3336,
+      0.0781,
+      0.155
+    ],
+    "normal": [
+      -1.0,
+      0.0,
+      0.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UILaunchScreen</key>
+	<dict/>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.kwharton.auries</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>auries</string>
+			</array>
+		</dict>
+	</array>
+	<key>RevenueCatAPIKey</key>
+	<string>$(REVENUECAT_API_KEY)</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Aurie uses the camera to photograph an object so a creature inspired by it can hatch. The photo is processed on your device; only a small keepsake thumbnail is kept.</string>
+	<!-- Aurie ships no custom or non-exempt encryption: no bespoke crypto,
+	     and only the standard HTTPS/ATS the OS and RevenueCat SDK use.
+	     Declaring it here answers App Store Connect's export-compliance
+	     question at upload instead of once per submission. -->
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<!-- App Store validation (ITMS-90713) wants this at the TOP level.
+	     actool only emits the nested CFBundleIcons.CFBundlePrimaryIcon
+	     .CFBundleIconName, and Xcode has no INFOPLIST_KEY_ mapping for
+	     this key, so it is declared here. Same value actool uses, so the
+	     two can never disagree. -->
+	<key>CFBundleIconName</key>
+	<string>AppIcon</string>
+</dict>
+</plist>

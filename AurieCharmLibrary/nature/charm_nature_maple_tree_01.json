@@ -1,0 +1,101 @@
+{
+  "id": "charm_nature_maple_tree_01",
+  "displayName": "Maple Tree",
+  "category": "nature",
+  "sourceFilename": "MapleTree_5.blend",
+  "sourceSHA256": "c7ea2d1f564ed095f6f196d2ddf7208db45eac206374a66315deaf0908f28e1f",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "botanical",
+  "seconds": 2.2,
+  "sourceComplete": false,
+  "texturesRelinked": [
+    {
+      "image": "MapleTree_Bark.png.001",
+      "wanted": "MapleTree_Bark.png",
+      "resolved": "MapleTree_Bark.png",
+      "match": "exact"
+    },
+    {
+      "image": "MapleTree_Bark_Normal.png.001",
+      "wanted": "MapleTree_Bark_Normal.png",
+      "resolved": "MapleTree_Bark_Normal.png",
+      "match": "exact"
+    },
+    {
+      "image": "MapleTree_Leaves.png.001",
+      "wanted": "MapleTree_Leaves.png",
+      "resolved": "MapleTree_Leaves.png",
+      "match": "exact"
+    }
+  ],
+  "colourComplete": true,
+  "missingTextures": [
+    {
+      "name": "Texture.png",
+      "path": "//\u00a0/Blender/DavidThorn/Library/Large/Texture.png"
+    }
+  ],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 1,
+    "kinds": {
+      "MESH": 1
+    },
+    "polys": 2252,
+    "droppedObjects": {
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": []
+  },
+  "geometry": {
+    "polysAfter": 11156,
+    "scaleApplied": 0.13779,
+    "extentsNormalized": [
+      0.9358,
+      0.7485,
+      1.0
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": false,
+      "steps": [
+        "pitch-6/yaw-10"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 2963 edges >55deg, 2817 corner verts)",
+      "bevel 0.009x3",
+      "smooth<60deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "MapleTree_Bark",
+      "source": "texture",
+      "colour": null,
+      "orphanShaderNodesIgnored": 0
+    },
+    {
+      "name": "MapleTree_Leaves",
+      "source": "texture",
+      "colour": null,
+      "orphanShaderNodesIgnored": 0
+    }
+  ],
+  "attachment": {
+    "type": "BODY_SIDE",
+    "position": [
+      -0.4679,
+      0.0491,
+      0.0008
+    ],
+    "normal": [
+      -1.0,
+      0.0,
+      0.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

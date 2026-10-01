@@ -1,0 +1,115 @@
+{
+  "id": "charm_animal_wolf_01",
+  "displayName": "Wolf",
+  "category": "animals",
+  "sourceFilename": "Wolf.blend",
+  "sourceSHA256": "fe31c3829dd2a8b9dfedb2e5cb656939a1d525ebd535a62434d2d25a4399cb9e",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "creature",
+  "seconds": 0.9,
+  "sourceComplete": false,
+  "texturesRelinked": [],
+  "colourComplete": true,
+  "missingTextures": [
+    {
+      "name": "Texture.png",
+      "path": "//../\u00a0/Blender/DavidThorn/Library/Large/Texture.png"
+    }
+  ],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 2,
+    "kinds": {
+      "ARMATURE": 1,
+      "MESH": 1
+    },
+    "polys": 1016,
+    "droppedObjects": {
+      "ARMATURE": 1,
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": [
+      "objectmode:AnimalArmature"
+    ]
+  },
+  "geometry": {
+    "polysAfter": 6566,
+    "scaleApplied": 0.19336,
+    "extentsNormalized": [
+      1.0,
+      0.4385,
+      0.5302
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": false,
+      "steps": [
+        "yaw-90",
+        "pitch-5/yaw-22"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 255 edges >55deg, 101 corner verts)",
+      "bevel 0.012x3",
+      "smooth<62deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "Main",
+      "source": "colour",
+      "colour": [
+        0.1842,
+        0.1902,
+        0.1685
+      ],
+      "orphanShaderNodesIgnored": 2
+    },
+    {
+      "name": "Nose",
+      "source": "colour",
+      "colour": [
+        0.0272,
+        0.0272,
+        0.0272
+      ],
+      "orphanShaderNodesIgnored": 2
+    },
+    {
+      "name": "Main_Light",
+      "source": "colour",
+      "colour": [
+        0.3644,
+        0.3757,
+        0.3315
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "Eyes_Black",
+      "source": "colour",
+      "colour": [
+        0.009,
+        0.009,
+        0.009
+      ],
+      "orphanShaderNodesIgnored": 2
+    }
+  ],
+  "attachment": {
+    "type": "BODY_SIDE",
+    "position": [
+      -0.4772,
+      0.1774,
+      0.1256
+    ],
+    "normal": [
+      -1.0,
+      0.0,
+      0.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

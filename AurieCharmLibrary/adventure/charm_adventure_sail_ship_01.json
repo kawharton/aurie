@@ -1,0 +1,126 @@
+{
+  "id": "charm_adventure_sail_ship_01",
+  "displayName": "Sail Ship",
+  "category": "adventure",
+  "sourceFilename": "Sail ship.blend",
+  "sourceSHA256": "f9cf8bb0fc345b3851e9fd596fc75edf236b32309e1a6ce193e8c2a9b25aff78",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "mechanical",
+  "seconds": 1.1,
+  "sourceComplete": true,
+  "texturesRelinked": [],
+  "colourComplete": true,
+  "missingTextures": [],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 5,
+    "kinds": {
+      "MESH": 5
+    },
+    "polys": 1829,
+    "droppedObjects": {
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": []
+  },
+  "geometry": {
+    "polysAfter": 30665,
+    "scaleApplied": 0.16259,
+    "extentsNormalized": [
+      1.0,
+      0.3544,
+      0.6249
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": false,
+      "steps": [
+        "yaw-90",
+        "pitch-5/yaw-16"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 2079 edges >55deg, 1232 corner verts)",
+      "bevel 0.010x3",
+      "smooth<58deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "Wood",
+      "source": "colour",
+      "colour": [
+        0.4452,
+        0.2122,
+        0.0999
+      ],
+      "orphanShaderNodesIgnored": 2
+    },
+    {
+      "name": "Fabric",
+      "source": "colour",
+      "colour": [
+        0.8,
+        0.706,
+        0.5128
+      ],
+      "orphanShaderNodesIgnored": 2
+    },
+    {
+      "name": "DarkWood",
+      "source": "colour",
+      "colour": [
+        0.2738,
+        0.1326,
+        0.0637
+      ],
+      "orphanShaderNodesIgnored": 2
+    },
+    {
+      "name": "LightWood",
+      "source": "colour",
+      "colour": [
+        0.723,
+        0.3404,
+        0.1574
+      ],
+      "orphanShaderNodesIgnored": 2
+    },
+    {
+      "name": "C5B99A",
+      "source": "colour",
+      "colour": [
+        0.5583,
+        0.4851,
+        0.3231
+      ],
+      "orphanShaderNodesIgnored": 0
+    },
+    {
+      "name": "DarkRed",
+      "source": "colour",
+      "colour": [
+        0.477,
+        0.0506,
+        0.0625
+      ],
+      "orphanShaderNodesIgnored": 1
+    }
+  ],
+  "attachment": {
+    "type": "BODY_SIDE",
+    "position": [
+      -0.4974,
+      0.0992,
+      -0.0925
+    ],
+    "normal": [
+      -1.0,
+      0.0,
+      0.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

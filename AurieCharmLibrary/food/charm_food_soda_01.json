@@ -1,0 +1,90 @@
+{
+  "id": "charm_food_soda_01",
+  "displayName": "Soda",
+  "category": "food",
+  "sourceFilename": "Soda.blend",
+  "sourceSHA256": "0242444a9db616beea8ab50ee9e28be5a8e78b8313bf7681edd30a567e3e3b97",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "plush",
+  "seconds": 0.8,
+  "sourceComplete": false,
+  "texturesRelinked": [],
+  "colourComplete": true,
+  "missingTextures": [
+    {
+      "name": "Texture.png",
+      "path": "//\u00a0/Blender/DavidThorn/Library/Large/Texture.png"
+    }
+  ],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 1,
+    "kinds": {
+      "MESH": 1
+    },
+    "polys": 228,
+    "droppedObjects": {
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": []
+  },
+  "geometry": {
+    "polysAfter": 2629,
+    "scaleApplied": 0.51532,
+    "extentsNormalized": [
+      0.4596,
+      0.4575,
+      1.0
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": false,
+      "steps": [
+        "pitch-6/yaw-12"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 82 edges >55deg, 81 corner verts)",
+      "bevel 0.020x3",
+      "smooth<65deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "Red",
+      "source": "colour",
+      "colour": [
+        0.4575,
+        0.0847,
+        0.0545
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "White",
+      "source": "colour",
+      "colour": [
+        0.4575,
+        0.4575,
+        0.4575
+      ],
+      "orphanShaderNodesIgnored": 1
+    }
+  ],
+  "attachment": {
+    "type": "BODY_FRONT",
+    "position": [
+      0.0486,
+      0.2282,
+      0.0851
+    ],
+    "normal": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

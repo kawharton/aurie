@@ -1,0 +1,84 @@
+{
+  "id": "charm_nature_petals_01",
+  "displayName": "Petals",
+  "category": "nature",
+  "sourceFilename": "Petals_1.blend",
+  "sourceSHA256": "435465f861b8d268e2454ba0283882b0b418314e768cadc308d49fdf6447fdbf",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "botanical",
+  "seconds": 1.4,
+  "sourceComplete": false,
+  "texturesRelinked": [
+    {
+      "image": "Flowers.png.001",
+      "wanted": "Flowers.png",
+      "resolved": "Flowers.png",
+      "match": "exact"
+    }
+  ],
+  "colourComplete": true,
+  "missingTextures": [
+    {
+      "name": "Texture.png",
+      "path": "//\u00a0/Blender/DavidThorn/Library/Large/Texture.png"
+    }
+  ],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 1,
+    "kinds": {
+      "MESH": 1
+    },
+    "polys": 90,
+    "droppedObjects": {
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": []
+  },
+  "geometry": {
+    "polysAfter": 270,
+    "scaleApplied": 1.50542,
+    "extentsNormalized": [
+      1.0,
+      0.9626,
+      0.9721
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": false,
+      "steps": [
+        "yaw-90",
+        "pitch-6/yaw-10"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 90 edges >55deg, 90 corner verts)",
+      "bevel 0.009x3",
+      "smooth<60deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "Flowers",
+      "source": "texture",
+      "colour": null,
+      "orphanShaderNodesIgnored": 0
+    }
+  ],
+  "attachment": {
+    "type": "HEAD",
+    "position": [
+      -0.0054,
+      0.1288,
+      -0.486
+    ],
+    "normal": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

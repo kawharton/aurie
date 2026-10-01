@@ -1,0 +1,100 @@
+{
+  "id": "charm_nature_pine_tree_01",
+  "displayName": "Pine Tree",
+  "category": "nature",
+  "sourceFilename": "PineTree_5.blend",
+  "sourceSHA256": "9dfda551e82277c1f4b8cec1e7dfed521df95ed222d0fd9a4306b2c2a5d5266f",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "botanical",
+  "seconds": 0.9,
+  "sourceComplete": false,
+  "texturesRelinked": [],
+  "colourComplete": true,
+  "missingTextures": [
+    {
+      "name": "Texture.png",
+      "path": "//\u00a0/Blender/DavidThorn/Library/Large/Texture.png"
+    }
+  ],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 1,
+    "kinds": {
+      "MESH": 1
+    },
+    "polys": 786,
+    "droppedObjects": {
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": []
+  },
+  "geometry": {
+    "polysAfter": 6745,
+    "scaleApplied": 0.36651,
+    "extentsNormalized": [
+      0.5367,
+      0.5055,
+      1.0
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": false,
+      "steps": [
+        "pitch-6/yaw-10"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 370 edges >55deg, 161 corner verts)",
+      "bevel 0.009x3",
+      "smooth<60deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "Wood",
+      "source": "colour",
+      "colour": [
+        0.1529,
+        0.0704,
+        0.0595
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "Green",
+      "source": "colour",
+      "colour": [
+        0.0874,
+        0.1523,
+        0.0599
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "DarkGreen",
+      "source": "colour",
+      "colour": [
+        0.0532,
+        0.0908,
+        0.037
+      ],
+      "orphanShaderNodesIgnored": 1
+    }
+  ],
+  "attachment": {
+    "type": "BODY_SIDE",
+    "position": [
+      -0.2661,
+      -0.0231,
+      0.0559
+    ],
+    "normal": [
+      -1.0,
+      0.0,
+      0.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

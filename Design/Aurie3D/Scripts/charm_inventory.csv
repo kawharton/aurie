@@ -1,0 +1,81 @@
+SourceFile,ProcessedID,Category,LaunchStatus,Notes
+Anglerfish.blend,charm_animal_anglerfish_01,Animals,Future,Fun unusual animal but less universal
+Apple_Green.blend,charm_food_apple_01,Food,Launch,Strong simple silhouette
+Backpack.blend,charm_object_backpack_01,Objects,Launch,Good accessory-like charm
+Bacon_Uncooked.blend,charm_food_bacon_01,Food,Future,Review appearance at charm scale
+Banana.blend,charm_food_banana_01,Food,Launch,Strong recognizable silhouette
+Boat.blend,charm_adventure_boat_01,Adventure,Future,May be visually complex when tiny
+Book3_Open.blend,charm_object_book_01,Objects,Launch,Good readable object
+Book4_Open.blend,charm_object_book_02,Objects,Future,Keep as alternate book
+Broccoli.blend,charm_food_broccoli_01,Food,Launch,Cute distinctive silhouette
+CactusFlowers_5.blend,charm_nature_cactus_flower_01,Nature,Launch,Good colorful nature charm
+Chest_Closed.blend,charm_magic_chest_01,Magic,Launch,Strong treasure theme
+Chest_Ingots.blend,charm_magic_chest_ingots_01,Magic,Future,More detailed variant
+Chest_Open.blend,charm_magic_chest_open_01,Magic,Future,Alternate chest state
+ChickenLeg.blend,charm_food_chicken_leg_01,Food,Future,Review visual fit
+Clownfish.blend,charm_animal_clownfish_01,Animals,Launch,Colorful recognizable animal
+Coin_Star.blend,charm_magic_star_coin_01,Magic,Launch,Excellent tiny-charm silhouette
+CommonTree_5.blend,charm_nature_tree_01,Nature,Future,May be too bulky
+Cop.blend,charm_character_cop_01,Characters,Review,Inspect model and decide whether it fits Aurie
+Cow.blend,charm_animal_cow_01,Animals,Launch,Cute recognizable animal
+Crown.blend,charm_magic_crown_01,Magic,Launch,Excellent head/body charm candidate
+Crystal4.blend,charm_magic_crystal_01,Magic,Launch,Very strong Aurie fit
+Crystal5.blend,charm_magic_crystal_02,Magic,Launch,Useful visual variant
+Cupcake.blend,charm_food_cupcake_01,Food,Launch,Excellent charm subject
+Deer.blend,charm_animal_deer_01,Animals,Launch,Strong cute animal
+Dolphin.blend,charm_animal_dolphin_01,Animals,Launch,Recognizable silhouette
+Donut2.blend,charm_food_donut_01,Food,Launch,Excellent simple charm
+Donut3.blend,charm_food_donut_02,Food,Launch,Keep as second visual variant
+Eggplant.blend,charm_food_eggplant_01,Food,Future,Good but lower launch priority
+FirstAidKit_Hard.blend,charm_object_first_aid_kit_01,Objects,Launch,Distinctive useful icon
+Fish1.blend,charm_animal_fish_01,Animals,Future,Review against stronger fish models
+Fish2.blend,charm_animal_fish_02,Animals,Future,Variant
+Fish3.blend,charm_animal_fish_03,Animals,Future,Variant
+Flower.blend,charm_nature_flower_01,Nature,Launch,Excellent Aurie charm
+Flower2.blend,charm_nature_flower_02,Nature,Launch,Useful variety
+Flower3.blend,charm_nature_flower_03,Nature,Launch,Useful variety
+Fork.blend,charm_object_fork_01,Objects,Future,Readable but less magical
+Fox.blend,charm_animal_fox_01,Animals,Launch,Excellent cute animal
+Horse_White.blend,charm_animal_horse_01,Animals,Launch,Good recognizable animal
+Husky.blend,charm_animal_husky_01,Animals,Launch,Excellent cute animal
+IceCream_1.blend,charm_food_icecream_01,Food,Launch,Strong launch charm
+IceCream_2.blend,charm_food_icecream_02,Food,Launch,Second useful variant
+IceCream_4.blend,charm_food_icecream_03,Food,Future,Hold additional variant
+Key1.blend,charm_object_key_01,Objects,Launch,Excellent classic charm
+Key2.blend,charm_object_key_02,Objects,Launch,Good variant
+Key3.blend,charm_object_key_03,Objects,Future,Hold third variant
+Koi.blend,charm_animal_koi_01,Animals,Launch,Beautiful distinctive fish
+Lifeboat.blend,charm_adventure_lifeboat_01,Adventure,Future,More niche
+NormalCar1.blend,charm_vehicle_car_01,Vehicles,Future,Review at small scale
+NormalCar2.blend,charm_vehicle_car_02,Vehicles,Future,Variant
+Padlock.blend,charm_object_padlock_01,Objects,Launch,Very readable tiny charm
+PineTree_5.blend,charm_nature_pine_tree_01,Nature,Future,Good seasonal/future content
+Pizza_Slice.blend,charm_food_pizza_01,Food,Launch,Excellent charm silhouette
+Pumpkin.blend,charm_nature_pumpkin_01,Nature,Launch,Good year-round/seasonal option
+Sail ship.blend,charm_adventure_sail_ship_01,Adventure,Future,Complex silhouette
+Shark.blend,charm_animal_shark_01,Animals,Future,Good future animal
+Snowflake1.blend,charm_nature_snowflake_01,Nature,Launch,Excellent decorative charm
+Snowflake2.blend,charm_nature_snowflake_02,Nature,Future,Variant
+Snowflake3.blend,charm_nature_snowflake_03,Nature,Future,Variant
+Soda.blend,charm_food_soda_01,Food,Launch,Simple recognizable object
+Spoon.blend,charm_object_spoon_01,Objects,Future,Lower priority
+SportsCar.blend,charm_vehicle_sports_car_01,Vehicles,Future,Potentially good later
+SportsCar2.blend,charm_vehicle_sports_car_02,Vehicles,Future,Variant
+Star.blend,charm_magic_star_01,Magic,Launch,Excellent universal Aurie charm
+Steak.blend,charm_food_steak_01,Food,Future,Lower priority
+Sword_big.blend,charm_magic_sword_01,Magic,Future,Potential adventure set
+Taxi.blend,charm_vehicle_taxi_01,Vehicles,Future,Good themed future content
+Tent.blend,charm_adventure_tent_01,Adventure,Launch,Distinctive outdoors charm
+Tomato.blend,charm_food_tomato_01,Food,Launch,Simple colorful silhouette
+Viking boat.blend,charm_adventure_viking_boat_01,Adventure,Future,
+Waffle.blend,charm_food_waffle_01,Food,Launch,Cute recognizable shape
+Wolf.blend,charm_animal_wolf_01,Animals,Future,Good future animal
+WoodLog.blend,charm_nature_wood_log_01,Nature,Future,Useful outdoors set
+ZebraClownFish.blend,charm_animal_zebra_clownfish_01,Animals,Future,Interesting specialty fish
+MapleTree_5.blend,charm_nature_maple_tree_01,Nature,Review,Added 2026-08-19 with the texture pack
+NormalTree_5.blend,charm_nature_tree_02,Nature,Review,Added 2026-08-19 with the texture pack
+Petals_1.blend,charm_nature_petals_01,Nature,Review,Added 2026-08-19 with the texture pack
+Plant_Flowers.blend,charm_nature_plant_flowers_01,Nature,Review,Added 2026-08-19 with the texture pack
+Rock_1.blend,charm_nature_rock_01,Nature,Review,Added 2026-08-19 with the texture pack
+Rock_2.blend,charm_nature_rock_02,Nature,Review,Added 2026-08-19 with the texture pack
+Rock_3.blend,charm_nature_rock_03,Nature,Review,Added 2026-08-19 with the texture pack

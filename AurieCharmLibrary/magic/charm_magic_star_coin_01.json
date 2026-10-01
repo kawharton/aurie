@@ -1,0 +1,80 @@
+{
+  "id": "charm_magic_star_coin_01",
+  "displayName": "Star Coin",
+  "category": "magic",
+  "sourceFilename": "Coin_Star.blend",
+  "sourceSHA256": "d35bacd54a86262bc32f9d75156fe1adc772ff73aeef5696e2121bb73424b2e7",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "panel",
+  "seconds": 1.4,
+  "sourceComplete": false,
+  "texturesRelinked": [],
+  "colourComplete": true,
+  "missingTextures": [
+    {
+      "name": "Texture.png",
+      "path": "//\u00a0/Blender/DavidThorn/Library/Large/Texture.png"
+    }
+  ],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 1,
+    "kinds": {
+      "MESH": 1
+    },
+    "polys": 209,
+    "droppedObjects": {
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": []
+  },
+  "geometry": {
+    "polysAfter": 1850,
+    "scaleApplied": 1.34575,
+    "extentsNormalized": [
+      0.9973,
+      0.4232,
+      1.0
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": false,
+      "steps": [
+        "pitch-8/yaw-10"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 125 edges >55deg, 30 corner verts)",
+      "bevel 0.008x3",
+      "smooth<55deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "Gold",
+      "source": "colour",
+      "colour": [
+        0.6038,
+        0.4703,
+        0.0984
+      ],
+      "orphanShaderNodesIgnored": 1
+    }
+  ],
+  "attachment": {
+    "type": "HANGING",
+    "position": [
+      0.0034,
+      0.0194,
+      0.4869
+    ],
+    "normal": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "charm_object_key_01",
+  "displayName": "Key",
+  "category": "objects",
+  "sourceFilename": "Key1.blend",
+  "sourceSHA256": "77b53a9d18c480a384d7067b5b4bb19168f57682266ae7b277955f2e279bdd02",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "mechanical",
+  "seconds": 0.8,
+  "sourceComplete": false,
+  "texturesRelinked": [],
+  "colourComplete": true,
+  "missingTextures": [
+    {
+      "name": "Texture.png",
+      "path": "//\u00a0/Blender/DavidThorn/Library/Large/Texture.png"
+    }
+  ],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 1,
+    "kinds": {
+      "MESH": 1
+    },
+    "polys": 141,
+    "droppedObjects": {
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": []
+  },
+  "geometry": {
+    "polysAfter": 2770,
+    "scaleApplied": 1.15132,
+    "extentsNormalized": [
+      0.3364,
+      0.1701,
+      1.0
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": true,
+      "steps": [
+        "stand-up",
+        "pitch-5/yaw0"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 178 edges >55deg, 110 corner verts)",
+      "bevel 0.010x3",
+      "smooth<58deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "Brown",
+      "source": "colour",
+      "colour": [
+        0.1376,
+        0.0749,
+        0.0511
+      ],
+      "orphanShaderNodesIgnored": 2
+    }
+  ],
+  "attachment": {
+    "type": "HANGING",
+    "position": [
+      -0.0055,
+      0.0007,
+      0.4994
+    ],
+    "normal": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "id": "charm_adventure_viking_boat_01",
+  "displayName": "Viking Boat",
+  "category": "adventure",
+  "sourceFilename": "Viking boat.blend",
+  "sourceSHA256": "d5e0b9d6c92ab4a59a5c73bfcc03bad8b408466d4257e1eb7cf2cc050103e574",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "mechanical",
+  "seconds": 0.9,
+  "sourceComplete": true,
+  "texturesRelinked": [],
+  "colourComplete": true,
+  "missingTextures": [],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 2,
+    "kinds": {
+      "MESH": 2
+    },
+    "polys": 813,
+    "droppedObjects": {
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": []
+  },
+  "geometry": {
+    "polysAfter": 10366,
+    "scaleApplied": 0.24581,
+    "extentsNormalized": [
+      1.0,
+      0.5147,
+      0.6263
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": false,
+      "steps": [
+        "yaw-90",
+        "pitch-5/yaw-16"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 712 edges >55deg, 504 corner verts)",
+      "bevel 0.010x3",
+      "smooth<58deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "White",
+      "source": "colour",
+      "colour": [
+        0.7481,
+        0.8,
+        0.6152
+      ],
+      "orphanShaderNodesIgnored": 2
+    },
+    {
+      "name": "Red",
+      "source": "colour",
+      "colour": [
+        0.8,
+        0.1291,
+        0.0995
+      ],
+      "orphanShaderNodesIgnored": 2
+    },
+    {
+      "name": "DarkWood",
+      "source": "colour",
+      "colour": [
+        0.4397,
+        0.2122,
+        0.0953
+      ],
+      "orphanShaderNodesIgnored": 2
+    },
+    {
+      "name": "Wood",
+      "source": "colour",
+      "colour": [
+        0.5583,
+        0.2664,
+        0.1195
+      ],
+      "orphanShaderNodesIgnored": 2
+    },
+    {
+      "name": "LightWood",
+      "source": "colour",
+      "colour": [
+        0.6584,
+        0.3613,
+        0.1878
+      ],
+      "orphanShaderNodesIgnored": 2
+    }
+  ],
+  "attachment": {
+    "type": "BODY_SIDE",
+    "position": [
+      -0.4999,
+      0.1547,
+      -0.0874
+    ],
+    "normal": [
+      -1.0,
+      0.0,
+      0.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

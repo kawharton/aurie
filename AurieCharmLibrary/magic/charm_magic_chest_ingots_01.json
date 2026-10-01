@@ -1,0 +1,111 @@
+{
+  "id": "charm_magic_chest_ingots_01",
+  "displayName": "Chest of Ingots",
+  "category": "magic",
+  "sourceFilename": "Chest_Ingots.blend",
+  "sourceSHA256": "2e9b91c925a07a6c4df276de0fe7a2046aa5f8f47e6322f9ca55e2f678c5d923",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "mechanical",
+  "seconds": 1.5,
+  "sourceComplete": false,
+  "texturesRelinked": [],
+  "colourComplete": true,
+  "missingTextures": [
+    {
+      "name": "Texture.png",
+      "path": "//\u00a0/Blender/DavidThorn/Library/Large/Texture.png"
+    }
+  ],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 1,
+    "kinds": {
+      "MESH": 1
+    },
+    "polys": 1168,
+    "droppedObjects": {
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": []
+  },
+  "geometry": {
+    "polysAfter": 11563,
+    "scaleApplied": 0.82023,
+    "extentsNormalized": [
+      0.9303,
+      0.9726,
+      1.0
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": false,
+      "steps": [
+        "yaw-90",
+        "pitch-5/yaw-16"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 1154 edges >55deg, 468 corner verts)",
+      "bevel 0.010x3",
+      "smooth<58deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "Gold",
+      "source": "colour",
+      "colour": [
+        0.6038,
+        0.4703,
+        0.0984
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "DarkMetal",
+      "source": "colour",
+      "colour": [
+        0.0631,
+        0.0517,
+        0.0946
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "Wood",
+      "source": "colour",
+      "colour": [
+        0.2019,
+        0.104,
+        0.0793
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "Metal",
+      "source": "colour",
+      "colour": [
+        0.077,
+        0.0683,
+        0.1149
+      ],
+      "orphanShaderNodesIgnored": 1
+    }
+  ],
+  "attachment": {
+    "type": "BODY_FRONT",
+    "position": [
+      -0.1662,
+      0.4431,
+      -0.0051
+    ],
+    "normal": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

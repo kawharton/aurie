@@ -1,0 +1,79 @@
+{
+  "id": "charm_magic_star_01",
+  "displayName": "Star",
+  "category": "magic",
+  "sourceFilename": "Star.blend",
+  "sourceSHA256": "f77b0353470080bd022154329fdc7fa79c827062931d23e7d72a61cc4b19ab6b",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "faceted",
+  "seconds": 1.0,
+  "sourceComplete": false,
+  "texturesRelinked": [],
+  "colourComplete": true,
+  "missingTextures": [
+    {
+      "name": "Texture.png",
+      "path": "//\u00a0/Blender/DavidThorn/Library/Large/Texture.png"
+    }
+  ],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 1,
+    "kinds": {
+      "MESH": 1
+    },
+    "polys": 110,
+    "droppedObjects": {
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": []
+  },
+  "geometry": {
+    "polysAfter": 370,
+    "scaleApplied": 1.10598,
+    "extentsNormalized": [
+      1.0,
+      0.4359,
+      0.9778
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": false,
+      "steps": [
+        "pitch-4/yaw-14"
+      ]
+    },
+    "softening": [
+      "bevel 0.006x2",
+      "faceted"
+    ]
+  },
+  "materials": [
+    {
+      "name": "Gold",
+      "source": "colour",
+      "colour": [
+        0.6038,
+        0.4703,
+        0.0984
+      ],
+      "orphanShaderNodesIgnored": 1
+    }
+  ],
+  "attachment": {
+    "type": "HANGING",
+    "position": [
+      0.0062,
+      0.0323,
+      0.4834
+    ],
+    "normal": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

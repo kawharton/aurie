@@ -1,0 +1,100 @@
+{
+  "id": "charm_animal_fish_02",
+  "displayName": "Fish",
+  "category": "animals",
+  "sourceFilename": "Fish2.blend",
+  "sourceSHA256": "c74df2845f87e159e1d9d626605ce32ee650ae29b62e3afd199bbef5dc57ac9e",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "creature",
+  "seconds": 1.1,
+  "sourceComplete": true,
+  "texturesRelinked": [],
+  "colourComplete": true,
+  "missingTextures": [],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 2,
+    "kinds": {
+      "ARMATURE": 1,
+      "MESH": 1
+    },
+    "polys": 270,
+    "droppedObjects": {
+      "ARMATURE": 1,
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": [
+      "objectmode:Armature"
+    ]
+  },
+  "geometry": {
+    "polysAfter": 3126,
+    "scaleApplied": 0.10851,
+    "extentsNormalized": [
+      1.0,
+      0.4722,
+      0.6669
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": false,
+      "steps": [
+        "yaw-90",
+        "pitch-5/yaw-22"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 207 edges >55deg, 89 corner verts)",
+      "bevel 0.012x3",
+      "smooth<62deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "Front",
+      "source": "colour",
+      "colour": [
+        0.2323,
+        0.492,
+        1.0
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "Fins",
+      "source": "colour",
+      "colour": [
+        0.723,
+        0.6816,
+        0.3823
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "Body",
+      "source": "colour",
+      "colour": [
+        0.0743,
+        0.1136,
+        0.8
+      ],
+      "orphanShaderNodesIgnored": 1
+    }
+  ],
+  "attachment": {
+    "type": "BODY_SIDE",
+    "position": [
+      -0.4862,
+      0.1753,
+      -0.0059
+    ],
+    "normal": [
+      -1.0,
+      0.0,
+      0.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

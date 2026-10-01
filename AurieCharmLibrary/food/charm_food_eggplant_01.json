@@ -1,0 +1,90 @@
+{
+  "id": "charm_food_eggplant_01",
+  "displayName": "Eggplant",
+  "category": "food",
+  "sourceFilename": "Eggplant.blend",
+  "sourceSHA256": "d1bfce723261cfed154727cffb27d59ea5d5925323eec8e50e84efbb813ade79",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "plush",
+  "seconds": 0.9,
+  "sourceComplete": false,
+  "texturesRelinked": [],
+  "colourComplete": true,
+  "missingTextures": [
+    {
+      "name": "Texture.png",
+      "path": "//\u00a0/Blender/DavidThorn/Library/Large/Texture.png"
+    }
+  ],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 1,
+    "kinds": {
+      "MESH": 1
+    },
+    "polys": 184,
+    "droppedObjects": {
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": []
+  },
+  "geometry": {
+    "polysAfter": 1812,
+    "scaleApplied": 0.57393,
+    "extentsNormalized": [
+      0.5549,
+      0.4009,
+      1.0
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": false,
+      "steps": [
+        "pitch-6/yaw-12"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 72 edges >55deg, 48 corner verts)",
+      "bevel 0.020x3",
+      "smooth<65deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "Purple",
+      "source": "colour",
+      "colour": [
+        0.057,
+        0.0446,
+        0.2019
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "DarkGreen",
+      "source": "colour",
+      "colour": [
+        0.0306,
+        0.0607,
+        0.0277
+      ],
+      "orphanShaderNodesIgnored": 2
+    }
+  ],
+  "attachment": {
+    "type": "BODY_FRONT",
+    "position": [
+      -0.0057,
+      0.1686,
+      -0.1361
+    ],
+    "normal": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

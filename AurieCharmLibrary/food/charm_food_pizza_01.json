@@ -1,0 +1,101 @@
+{
+  "id": "charm_food_pizza_01",
+  "displayName": "Pizza Slice",
+  "category": "food",
+  "sourceFilename": "Pizza_Slice.blend",
+  "sourceSHA256": "6c6216f9de3d18d93bd1434ecfdf00a9a81d39b016579cf090dfa2f45281ef97",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "panel",
+  "seconds": 1.0,
+  "sourceComplete": false,
+  "texturesRelinked": [],
+  "colourComplete": true,
+  "missingTextures": [
+    {
+      "name": "Texture.png",
+      "path": "//\u00a0/Blender/DavidThorn/Library/Large/Texture.png"
+    }
+  ],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 1,
+    "kinds": {
+      "MESH": 1
+    },
+    "polys": 172,
+    "droppedObjects": {
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": []
+  },
+  "geometry": {
+    "polysAfter": 1712,
+    "scaleApplied": 0.85847,
+    "extentsNormalized": [
+      0.9202,
+      0.1834,
+      1.0
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": true,
+      "steps": [
+        "stand-up",
+        "pitch-8/yaw0"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 142 edges >55deg, 102 corner verts)",
+      "bevel 0.008x3",
+      "smooth<55deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "LightYellow",
+      "source": "colour",
+      "colour": [
+        0.4575,
+        0.3235,
+        0.1709
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "Yellow",
+      "source": "colour",
+      "colour": [
+        0.5277,
+        0.3498,
+        0.0725
+      ],
+      "orphanShaderNodesIgnored": 2
+    },
+    {
+      "name": "Red",
+      "source": "colour",
+      "colour": [
+        0.4575,
+        0.0847,
+        0.0545
+      ],
+      "orphanShaderNodesIgnored": 1
+    }
+  ],
+  "attachment": {
+    "type": "BODY_FRONT",
+    "position": [
+      0.0007,
+      0.0402,
+      0.1227
+    ],
+    "normal": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

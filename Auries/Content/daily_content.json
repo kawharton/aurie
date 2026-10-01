@@ -1,0 +1,144 @@
+{
+  "quotes": [
+    {
+      "id": "lift-01",
+      "text": "Small steps are still steps."
+    },
+    {
+      "id": "lift-02",
+      "text": "You don't have to be big to be brave."
+    },
+    {
+      "id": "lift-03",
+      "text": "Today is a good day to be gentle with yourself."
+    },
+    {
+      "id": "lift-04",
+      "text": "Every ordinary thing is a little bit magic if you look closely."
+    },
+    {
+      "id": "lift-05",
+      "text": "Slow is still forward."
+    },
+    {
+      "id": "lift-06",
+      "text": "You've made it through every hard day so far."
+    },
+    {
+      "id": "lift-07",
+      "text": "Kindness counts, even the quiet kind."
+    },
+    {
+      "id": "lift-08",
+      "text": "There's room for you to rest."
+    },
+    {
+      "id": "lift-09",
+      "text": "Little joys add up."
+    },
+    {
+      "id": "lift-10",
+      "text": "Being here is enough for now."
+    },
+    {
+      "id": "lift-11",
+      "text": "Curiosity is a superpower."
+    },
+    {
+      "id": "lift-12",
+      "text": "You're allowed to start again, any time."
+    }
+  ],
+  "jokes": [
+    {
+      "id": "laugh-01",
+      "text": "Why did the egg refuse to tell a joke? It didn't want to crack up."
+    },
+    {
+      "id": "laugh-02",
+      "text": "What do you call a sleepy dinosaur? A dino-snore."
+    },
+    {
+      "id": "laugh-03",
+      "text": "Why did the pebble feel calm? It was a little boulder now."
+    },
+    {
+      "id": "laugh-04",
+      "text": "What do clouds wear under their raincoats? Thunderwear."
+    },
+    {
+      "id": "laugh-05",
+      "text": "How do you cheer up a tiny star? You give it a little space."
+    },
+    {
+      "id": "laugh-06",
+      "text": "What did the ocean say to the shore? Nothing — it just waved."
+    },
+    {
+      "id": "laugh-07",
+      "text": "What do you call a bear with no teeth? A gummy bear."
+    },
+    {
+      "id": "laugh-08",
+      "text": "Why did the banana go to the party? Because it was a-peeling."
+    },
+    {
+      "id": "laugh-09",
+      "text": "What's a ghost's favorite dessert? I-scream."
+    },
+    {
+      "id": "laugh-10",
+      "text": "Why did the leaf go to the doctor? It was feeling a little green."
+    },
+    {
+      "id": "laugh-11",
+      "text": "What kind of tree fits in your hand? A palm tree."
+    },
+    {
+      "id": "laugh-12",
+      "text": "Why don't eggs like fast jokes? They can't handle the yolk pressure."
+    }
+  ],
+  "dares": [
+    {
+      "id": "dare-01",
+      "text": "Text someone you miss — just to say hi."
+    },
+    {
+      "id": "dare-02",
+      "text": "Find one thing nearby that's a nice color."
+    },
+    {
+      "id": "dare-03",
+      "text": "Take three slow breaths."
+    },
+    {
+      "id": "dare-04",
+      "text": "Drink a glass of water."
+    },
+    {
+      "id": "dare-05",
+      "text": "Give someone (or something) a compliment today."
+    },
+    {
+      "id": "dare-06",
+      "text": "Look out a window for ten whole seconds."
+    },
+    {
+      "id": "dare-07",
+      "text": "Write down one good thing about today."
+    },
+    {
+      "id": "dare-08",
+      "text": "Stretch your arms way up high."
+    },
+    {
+      "id": "dare-09",
+      "text": "Do the tiny task you've been putting off — just start it."
+    },
+    {
+      "id": "dare-10",
+      "text": "Say thank you to someone before the day ends."
+    }
+  ]
+}

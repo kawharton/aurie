@@ -1,0 +1,98 @@
+{
+  "id": "charm_animal_fish_01",
+  "displayName": "Fish",
+  "category": "animals",
+  "sourceFilename": "Fish1.blend",
+  "sourceSHA256": "987d04a2de17f41a2b65e620240dc046d70a8c90393aa7b7ca6e92c1e07c43e3",
+  "processorVersion": "v1",
+  "mode": "processed",
+  "profile": "creature",
+  "seconds": 0.8,
+  "sourceComplete": true,
+  "texturesRelinked": [],
+  "colourComplete": true,
+  "missingTextures": [],
+  "unresolvedMaterials": [],
+  "source": {
+    "objects": 2,
+    "kinds": {
+      "ARMATURE": 1,
+      "MESH": 1
+    },
+    "polys": 295,
+    "droppedObjects": {
+      "ARMATURE": 1,
+      "keptHiddenMeshes": false
+    },
+    "contextFixes": []
+  },
+  "geometry": {
+    "polysAfter": 2813,
+    "scaleApplied": 0.13472,
+    "extentsNormalized": [
+      1.0,
+      0.4389,
+      0.3588
+    ],
+    "orientation": {
+      "rule": "auto",
+      "flat": false,
+      "steps": [
+        "yaw-90",
+        "pitch-5/yaw-22"
+      ]
+    },
+    "softening": [
+      "subsurf 1 (creased 175 edges >55deg, 84 corner verts)",
+      "bevel 0.012x3",
+      "smooth<62deg"
+    ]
+  },
+  "materials": [
+    {
+      "name": "Bottom",
+      "source": "colour",
+      "colour": [
+        0.6846,
+        0.8,
+        0.7279
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "Top",
+      "source": "colour",
+      "colour": [
+        0.8,
+        0.3587,
+        0.2407
+      ],
+      "orphanShaderNodesIgnored": 1
+    },
+    {
+      "name": "Fins",
+      "source": "colour",
+      "colour": [
+        0.8,
+        0.656,
+        0.4017
+      ],
+      "orphanShaderNodesIgnored": 1
+    }
+  ],
+  "attachment": {
+    "type": "BODY_SIDE",
+    "position": [
+      -0.4641,
+      0.1753,
+      -0.112
+    ],
+    "normal": [
+      -1.0,
+      0.0,
+      0.0
+    ],
+    "space": "charm_local_normalized",
+    "hardware": "none"
+  }
+}

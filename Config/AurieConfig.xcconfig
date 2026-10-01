@@ -1,0 +1,24 @@
+// TRACKED base configuration for the Auries app target.
+//
+// RevenueCat PUBLIC SDK keys live in Config/LocalSecrets.xcconfig, which is
+// GITIGNORED and machine-local. The include below is OPTIONAL (`#include?`),
+// so a fresh clone with no LocalSecrets.xcconfig still opens and builds
+// cleanly — the key simply resolves EMPTY and purchases are unavailable.
+//
+// Setup: copy Config/LocalSecrets.example.xcconfig to
+// Config/LocalSecrets.xcconfig and paste your keys there. Never commit the
+// real file; never put secret API keys or .p8 files in this repository.
+
+#include? "LocalSecrets.xcconfig"
+
+// DEBUG builds use the RevenueCat TEST STORE key.
+// RELEASE builds use the production Apple key and NEVER reference the Test
+// Store key — so a Test Store key cannot ship by accident even when one is
+// present on this machine.
+//
+// Until the Apple Developer account is active REVENUECAT_PRODUCTION_API_KEY
+// stays empty, which makes Release purchases cleanly UNAVAILABLE rather than
+// silently falling back to the Test Store.
+REVENUECAT_API_KEY =
+REVENUECAT_API_KEY[config=Debug] = $(REVENUECAT_TEST_API_KEY)
+REVENUECAT_API_KEY[config=Release] = $(REVENUECAT_PRODUCTION_API_KEY)

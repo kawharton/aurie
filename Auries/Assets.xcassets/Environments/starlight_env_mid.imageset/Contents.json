@@ -1,0 +1,13 @@
+{
+  "images": [
+    {
+      "filename": "starlight_env_mid.png",
+      "idiom": "universal",
+      "scale": "1x"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1
+  }
+}
