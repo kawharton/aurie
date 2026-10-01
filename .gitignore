@@ -185,3 +185,6 @@ build/
 
 # Local review/test evidence
 aurie-review-evidence/
+.claude/
+.claude/
+.claude/skills/
