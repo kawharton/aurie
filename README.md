@@ -1,4 +1,4 @@
-What will your world hatch?
+**What will your world hatch?**
 
 With Aurie, an everyday photo becomes an egg, and you never know who is waiting inside.
 
@@ -8,31 +8,31 @@ But hatching is only the beginning.
 
 Bring an Aurie home and interact with it. Tap it, pet it, pick it up, move it around, or give your phone a shake and see how it reacts. Different Auries have different looks and personalities, and each family has its own environment and atmosphere.
 
-HATCH & DISCOVER
+Hatch & Discover
 
 Turn photos into eggs and discover the Aurie inside. Auries come in different shapes, styles, expressions, patterns, and families, creating tons of possible combinations to find.
 
 You might even discover something especially rare.
 
-BUILD YOUR COLLECTION
+Build Your Collection
 
 Every Aurie you hatch joins your collection, so you can visit your favorites and keep discovering new ones.
 
 Each Aurie belongs to its own family, with a unique environment and atmosphere to call home.
 
-COLLECT & EQUIP CHARMS
+Collect & Equip Charms
 
 Discover charms as you play, build your charm collection, and choose which ones your Auries wear.
 
 Mix and match charms with different Auries to give your collection even more personality. Charms can appear in different places on your Aurie, making each one feel a little more your own.
 
-PLAY WITH YOUR AURIES
+Play With Your Auries
 
 Your Auries aren't just characters sitting in a collection.
 
 Spend time with them at Home. Tap them, pet them, move them around, shake your device, and watch them react. Auries can move, bounce, tumble, make expressions, and play in their family worlds.
 
-TAKE A QUIET MOMENT
+Take A Quiet Moment
 
 When you want something calmer, spend some time with your Aurie in Calm Mode.
 
@@ -40,7 +40,7 @@ Play with gentle particles, enjoy a quieter space, or use the Worry Jar to write
 
 Your written worry is not saved.
 
-THERE'S ALWAYS ANOTHER AURIE TO MEET
+There's Always Another Aurie To Meet
 
 Hatch new Auries. Find different combinations. Collect charms. Discover your favorites. And keep building a collection that's completely your own.
 
